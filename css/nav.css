@@ -1,0 +1,369 @@
+.FM_nav .ddnav li {
+    min-width: 289px;
+    max-width: 289px;
+    padding: 0;
+    text-align: left;
+    margin: 15px;
+}
+.FM_f16 {
+    font-size: 16px;
+}
+.FM_bo, .FM_COntus .bgin15, .FM_dlvlBtn:hover {
+    font-weight: 700;
+}
+ul li {
+    list-style: none;
+}
+FM_nav .ddnav li a {
+    text-align: left;
+    color: #12156b;
+    padding: 0;
+}
+.Fm_lh18 {
+    line-height: 1.25;
+}
+.FM_Db, .m61_tgl .lnk2, .dd:hover .ddnav {
+    display: block;
+}
+a {
+    outline: none;
+    text-decoration: none;
+}
+.FM_p52 {
+    padding-top: 10px;
+}
+ul, ol {
+    list-style-position: inside;
+}
+.FM_m0, .FM_COPV .FM_Social, .FM_nav .ddnav li ul li {
+    margin: 0;
+}
+.FM_nav .ddnav li {
+    min-width: 289px;
+    max-width: 289px;
+    padding: 0;
+    text-align: left;
+    margin: 15px;
+}
+.FM_f14 {
+    font-size: 14px;
+}
+.FM_bo1, .FM_nav>ul>li.active:hover {
+    font-weight: 400;
+}
+.FM_nav .ddnav li ul li a {
+    padding: 5px 0;
+    color: #333;
+}
+.FM_nav .ddnav li a {
+    text-align: left;
+    color: #12156b;
+    padding: 0;
+}
+.FM_c3, .FM_c3 a, .FM_nav>ul>li.Active_blue:hover a .FM_c4, .fcp_raw-item .FM_Btn:hover .FM_c6, .FM_nav>ul>li.Active_blue:hover a, .FM_Btn1 a, .FM_Btn a:hover, .FM_stky_frm .FM_be-mfrm input:focus.penqbt {
+    color: #fff;
+}
+.FM_c2, .FM_c2 a, .FM_pflePrd, .FM_Ftnav li a {
+    color: #333;
+}
+.Fm_lh17 {
+    line-height: 1.43;
+}
+.FM_Db, .m61_tgl .lnk2, .dd:hover .ddnav {
+    display: block;
+}
+.FM_nav .ddnav li {
+    min-width: 289px;
+    max-width: 289px;
+    padding: 0;
+    text-align: left;
+    margin: 15px;
+}
+.FM_f16 {
+    font-size: 16px;
+}
+.FM_bo, .FM_COntus .bgin15, .FM_dlvlBtn:hover {
+    font-weight: 700;
+}
+ul li {
+    list-style: none;
+}
+.FM_p52 {
+    padding-top: 10px;
+}
+ul, ol {
+    list-style-position: inside;
+}
+div, p, ul, nav, article, h1, h2, h3, header, footer, ol, form, figure, main, section {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+ul ul ul {
+    list-style-type: square;
+}
+.FM_nav .ddnav {
+    max-width: 1276px;
+    min-width: 289px;
+    top: 100%;
+    left: -110px;
+    box-shadow: 0 10px 13px 0 rgba(0,0,0,0.1);
+    background-color: #f7f7f7;
+    display: none;
+    z-index: 9999;
+}
+.FM_bs {
+    box-sizing: border-box;
+}
+.FM_bs {
+    box-sizing: border-box;
+}
+.FM_ps_l, .fcp_bdcrm_58 .fcp_bdcrm_wrap p .fcp_bdcrm_l_tngl {
+    left: 0;
+}
+.FM_pa {
+    position: absolute;
+}
+.FM_ds6 {
+    flex-wrap: wrap;
+}
+.FM_ds5, .FM_NSlde, .FM_sldr_iW {
+    display: -webkit-flex;
+    display: flex;
+}
+.FM_nav>ul>li.active {
+    background-color: #2d922f;
+}
+
+.FM_pr, .FM_pfleSaU_actv, .FM_stky_frm .FM_be-mfrm .bepdpreq, .FM_COntus .bepdpreq, .FM_Franch .bepdpreq, .FM_p_glry .vigB {
+    position: relative;
+}
+.FM_c3, .FM_c3 a, .FM_nav>ul>li.Active_blue:hover a .FM_c4, .fcp_raw-item .FM_Btn:hover .FM_c6, .FM_nav>ul>li.Active_blue:hover a, .FM_Btn1 a, .FM_Btn a:hover, .FM_stky_frm .FM_be-mfrm input:focus.penqbt {
+    color: #fff;
+}
+ul li {
+    list-style: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.FM_f16 {
+    font-size: 16px;
+}
+/* mann */
+body {
+    margin: 0;
+  }
+  
+  .container {
+      overflow: hidden;
+      background-color: #333;
+      font-family: Arial;
+  }
+  
+  .container a {
+      float: left;
+      font-size: 16px;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  
+  .dropdown {
+      float: left;
+      overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+      font-size: 16px;    
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
+  }
+  
+  .container a:hover, .dropdown:hover .dropbtn {
+      background-color: red;
+  }
+  
+  .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+  }
+  
+  .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+      background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+      display: block;
+  }
+  
+  .FM_nav .ddnav {
+      max-width: 1276px;
+      min-width: 289px;
+      top: 100%;
+      left: -110px;
+      box-shadow: 0 10px 13px 0 rgba(0,0,0,0.1);
+      background-color: #e64747;
+      display: none;
+      z-index: 9999;
+  }
+  .FM_bs {
+      box-sizing: border-box;
+  }
+  .FM_pa {
+      position: absolute;
+  }
+  .FM_ds6 {
+      flex-wrap: wrap;
+  }
+  .FM_nav .ddnav li {
+      min-width: 289px;
+      max-width: 289px;
+      padding: 0;
+      text-align: left;
+      margin: 15px;
+  }
+  .FM_f16 {
+      font-size: 16px;
+  }
+  .FM_bo, .FM_COntus .bgin15, .FM_dlvlBtn:hover {
+      font-weight: 700;
+  }
+  ul li {
+      list-style: none;
+  }
+  user agent stylesheet
+  li {
+      display: list-item;
+  }
+  .FM_nav .ddnav li a {
+      text-align: left;
+      color: #12156b;
+      padding: 0;
+  }
+  .Fm_lh18 {
+      line-height: 1.25;
+  }
+  .FM_Db, .m61_tgl .lnk2, .dd:hover .ddnav {
+      display: block;
+  }
+  a {
+      outline: none;
+      text-decoration: none;
+  }
+  .FM_p52 {
+      padding-top: 10px;
+  }
+  ul, ol {
+      list-style-position: inside;
+  }
+  div, p, ul, nav, article, h1, h2, h3, header, footer, ol, form, figure, main, section {
+      margin: 0;
+      padding: 0;
+      display: block;
+  }
+  user agent stylesheet
+  ul ul ul {
+      list-style-type: square;
+  }
+  ul ul {
+        margin-block-start: 0px;
+      margin-block-end: 0px;
+  }
+  ul {
+        margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      padding-inline-start: 40px;
+  }
+  .FM_f16 {
+      font-size: 16px;
+  }
+  .FM_bo, .FM_COntus .bgin15, .FM_dlvlBtn:hover {
+      font-weight: 700;
+  }
+  ul li {
+      list-style: none;
+  }
+  li {
+      display: list-item;
+  }
+  .FM_m0, .FM_COPV .FM_Social, .FM_nav .ddnav li ul li {
+      margin: 0;
+  }
+  .FM_nav .ddnav li {
+      min-width: 289px;
+      max-width: 289px;
+      padding: 0;
+      text-align: left;
+      margin: 15px;
+  }
+  .FM_f14 {
+      font-size: 14px;
+  }
+  .FM_bo1, .FM_nav>ul>li.active:hover {
+      font-weight: 400;
+  }
+  ul li {
+      list-style: none;
+  }
+  .FM_nav .ddnav li ul li a {
+      padding: 5px 0;
+      color: #333;
+  }
+  .FM_nav .ddnav li a {
+      text-align: left;
+  }
+  .Fm_lh17 {
+      line-height: 1.43;
+  }
+  .FM_Db, .m61_tgl .lnk2, .dd:hover .ddnav {
+      display: block;
+  }
+  a {
+      outline: none;
+      text-decoration: none;
+  }
+  .mann-flex{
+    display:flex;
+  }
+  .FM_nav .ddnav ul:nth-of-type(2)>li:nth-of-type(4) a {
+    text-align: center;
+    border: 1px solid #068076;
+    padding: 5px 10px;
+    width: 170px;
+}
+.FM_c4, .FM_c4 a, .FM_RELTD .FM_c1 a:hover, .FM_C17 a, a .FM_C18,.FM_nav .ddnav ul:nth-of-type(2)>li:nth-of-type(4) a, .FM_Btn a {
+    color: #99f92c;
+   
+}
+.shrey{
+    text-align: center;
+    border: 2px solid #21e95d;
+    margin-top: 150px;
+    margin-left: 150px;
+    padding: 1px 1px;
+    width: 170px;
+    height: 45px;
+}
+ul li {
+    margin-left: 0px;
+}
