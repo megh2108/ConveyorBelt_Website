@@ -157,7 +157,7 @@ body {
     margin: 0;
   }
   
-  .container {
+  /* .container {
       overflow: hidden;
       background-color: #333;
       font-family: Arial;
@@ -215,7 +215,7 @@ body {
   .dropdown:hover .dropdown-content {
       display: block;
   }
-  
+   */
   .FM_nav .ddnav {
       max-width: 1276px;
       min-width: 289px;
