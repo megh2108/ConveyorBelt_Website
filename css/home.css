@@ -1702,7 +1702,7 @@
   --------------------------------------------------------------*/
   .hero {
     width: 100%;
-    min-height: 50vh;
+    height: 100vh;
     background-color: var(--color-secondary);
     background-image: url("../img/hero-bg.png");
     background-size: cover;
