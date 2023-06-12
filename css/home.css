@@ -313,6 +313,7 @@
   @media (min-width: 1280px) {
     .navbar {
       padding: 0;
+      margin-right: 100px;
     }
   
     .navbar ul {
@@ -388,8 +389,8 @@
   
     .navbar .dropdown ul li {
       min-width: 200px;
+      overflow-wrap: break-word;
     }
-  
     .navbar .dropdown ul a {
       padding: 10px 20px;
       font-size: 15px;
@@ -1913,3 +1914,35 @@
   .footer .credits a {
     color: #fff;
   }
+
+  .more{
+    margin-left: 100px;
+  }
+
+  .cta{
+    position: relative;
+    margin: auto;
+    padding: 10px 15px;
+    transition: all .2s ease;
+    position: relative;
+    font-size: 14px;
+    line-height: 14px;
+    vertical-align: middle;
+  }
+  .cta:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 28px;
+    width: 56px;
+    height: 56px;
+    transition: all .9s ease;
+  }
+  .cta:hover{
+    background: #0d42ff;
+  }
+ 
+    
+  
