@@ -1,82 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
+
+    <!-- test -->
     <!-- <link href="//hm.imimg.com/template-mdc/d0066/style-fmt129.css" rel="stylesheet"> -->
-    <link rel="stylesheet" href="../css/nav.css">
-    <script src="//hm.imimg.com/template-mdc/d0066/pre66-v55.js" ></script>
+    <!-- <script src="//hm.imimg.com/template-mdc/d0066/pre66-v55.js" ></script> -->
 
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
+  <title>Logis Bootstrap Template - Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Fancybox Links -->
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+  
+  <!-- Favicons -->
+  <link href="../img/favicon.png" rel="icon">
+  <link href="../img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="../vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="../vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="../css/home.css" rel="stylesheet">
+  
 </head>
-<div class="container">
-    <a href="#home">Home</a>
-    <a href="#news">News</a>
-    <div class="dropdown">
-      <button class="dropbtn">Dropdown</button>
-      <div class="dropdown-content ">
-        
-          <ul class="mann-flex">
-            <li class="FM_f16 FM_bo" >
-              <a href="conveyor-chains.html" class="Fm_lh18 FM_Db">Conveyor Chains</a>
-              <ul class="FM_p52">
-                <li class="FM_f14 FM_bo1">
-                  <a href="conveyor-chains.html#20540003291" class="Fm_lh17 FM_Db">EN8 MS Double Strand Roller Chain</a>
-                </li>
-                <li class="FM_f14 FM_bo1"><a href="conveyor-chains.html#20539804212" class="Fm_lh17 FM_Db">SS316 Double Pitch Conveyor Chains</a></li>
-                <li class="FM_f14 FM_bo1"><a href="conveyor-chains.html#20560679348" class="Fm_lh17 FM_Db">EN8 MS Single Pitch Conveyor Chain</a></li>
-                <li class="FM_f14 FM_bo1"><a href="conveyor-chains.html#20560858048" class="Fm_lh17 FM_Db">Standard Conveyor Chains</a></li>
-                <li class="FM_f12 FM_bo1"><a href="conveyor-chains.html" class="Fm_lh17 FM_Db FM_tdu nvHvr">...more</a></li>
+
+<header style="background-color: black;" id="header" class="header d-flex align-items-center fixed-top">
+  <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+    <a href="home.html" class="logo d-flex align-items-center">
+      <!-- Uncomment the line below if you also wish to use an image logo -->
+      <img src="../img/conveyor.png" alt="">
+      <h1>Conveyor Industry</h1>
+    </a>
+
+    <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+    <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+    <nav id="navbar" class="navbar">
+      <ul>
+        <li><a href="home.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li class="dropdown"><a href="#"><span>Our Products</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <ul>
+            <li class="dropdown"><a href="#"><span>Conveyor Chains</span> <i class="bi bi-chevron-right dropdown-indicator"></i></a>
+              <ul>
+                <li><a href="#">EN8 MS Double Strand Roller Chain</a></li>
+                <li><a href="#">SS316 Double Pitch Conveyor Chains </a></li>
+                <li><a href="#">EN8 MS Single Pitch Conveyor Chain</a></li>
+                <li><a href="#">Standard Conveyor Chains</a></li>
+                <li class="more"><a href="#">more...</a></li>
               </ul>
             </li>
-  
-            <li class="FM_f16 FM_bo" onclick="reqFormGATrack('Category-Menu-dropdown-MDC','Sub Cateory-click-conveyor-attachments.html','MDC','');">
-              <a href="conveyor-attachments.html" class="Fm_lh18 FM_Db">Conveyor Attachments</a>
-              <ul class="FM_p52">
-                <li class="FM_f14 FM_bo1">
-                  <a href="conveyor-attachments.html#20540063297" class="Fm_lh17 FM_Db">MS Double Side Conveyor Chain Attachment</a>
-                </li>
-                <li class="FM_f14 FM_bo1"><a href="conveyor-attachments.html#20539804455" class="Fm_lh17 FM_Db">Large Pitch Single Sided Bend Attachments</a></li>
+            <li class="dropdown"><a href="#"><span>Conveyor Attachments</span> <i class="bi bi-chevron-right dropdown-indicator"></i></a>
+              <ul>
+                <li><a href="#">MS Double Side Conveyor Chain Attachment</a></li>
+                <li><a href="#">Large Pitch Single Sided Bend Attachments</a></li>
               </ul>
             </li>
-            <li class="FM_f16 FM_bo" onclick="reqFormGATrack('Category-Menu-dropdown-MDC','Sub Cateory-click-attachment-chains.html','MDC','');"><a href="attachment-chains.html" class="Fm_lh18 FM_Db">Attachment Chains</a>
-              <ul class="FM_p52">
-                <li class="FM_f14 FM_bo1"><a href="attachment-chains.html#22482973012" class="Fm_lh17 FM_Db">All type attachment chain</a></li>
-                <li class="FM_f14 FM_bo1"><a href="attachment-chains.html#22205631212" class="Fm_lh17 FM_Db">Chain Attachments</a></li>
+            <li class="dropdown"><a href="#"><span>Attachment Chains</span> <i class="bi bi-chevron-right dropdown-indicator"></i></a>
+              <ul>
+                <li><a href="#">All type attachment chain</a></li>
+                <li><a href="#">Chain Attachments</a></li>
               </ul>
             </li>
-            <li class="FM_f16 FM_bo" onclick="reqFormGATrack('Category-Menu-dropdown-MDC','Sub Cateory-click-roller-conveyors.html','MDC','');"><a href="roller-conveyors.html" class="Fm_lh18 FM_Db">Roller Conveyors</a>
-              <ul class="FM_p52">
-                <li class="FM_f14 FM_bo1"><a href="roller-conveyors.html#20563115055" class="Fm_lh17 FM_Db">Roller Conveyor</a></li>
-                <li class="FM_f14 FM_bo1"><a href="roller-conveyors.html#23933398930" class="Fm_lh17 FM_Db">IDLER ROLLER CONVEYOR</a></li>
+            <li class="dropdown"><a href="#"><span>Roller Conveyors</span> <i class="bi bi-chevron-right dropdown-indicator"></i></a>
+              <ul>
+                <li><a href="#">Roller Conveyor</a></li>
+                <li><a href="#">IDLER ROLLER CONVEYOR</a></li>
               </ul>
             </li>
+            <li class="dropdown"><a href="#"><span>Industrial Chain</span> <i class="bi bi-chevron-right dropdown-indicator"></i></a>
+              <ul>
+                <li><a href="#">slat chain</a></li>
+                <li><a href="#">Sugar Industries Chain</a></li>
+                <li><a href="#">Cc600</a></li>
+                <li><a href="#">Cement industries Chain</a></li>
+                <li class="more"><a href="#">more...</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a href="#"><span>Key Chain And Mobile Stand</span> <i class="bi bi-chevron-right dropdown-indicator"></i></a>
+              <ul>
+                <li><a href="#">CC600 Crate Conveyor Chain</a></li>
+                <li><a href="#">Casting Chain</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a href="#"><span>Conveyor And Elevator Chains</span> <i class="bi bi-chevron-right dropdown-indicator"></i></a>
+              <ul>
+                <li><a href="#">Z Bucket Elevator Chain</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a href="#"><button class="cta">View More</button></a></li>
           </ul>
-          <ul class="mann-flex">
-            <li class="FM_f16 FM_bo" onclick="reqFormGATrack('Category-Menu-dropdown-MDC','Sub Cateory-click-industrial-chain.html','MDC','');"><a href="industrial-chain.html" class="Fm_lh18 FM_Db">Industrial Chain</a>
-              <ul class="FM_p52">
-                <li class="FM_f14 FM_bo1"><a href="industrial-chain.html#22482950662" class="Fm_lh17 FM_Db">slat chain</a></li>
-                <li class="FM_f14 FM_bo1"><a href="industrial-chain.html#22482891912" class="Fm_lh17 FM_Db">Sugar Industries Chain</a></li>
-                <li class="FM_f14 FM_bo1"><a href="industrial-chain.html#22482959697" class="Fm_lh17 FM_Db">Cc600</a></li>
-                <li class="FM_f14 FM_bo1"><a href="industrial-chain.html#22482933791" class="Fm_lh17 FM_Db">Cement industries Chain</a></li>
-                <li class="FM_f12 FM_bo1"><a href="industrial-chain.html" class="Fm_lh17 FM_Db FM_tdu nvHvr">...more</a></li>
-              </ul>
-            </li>
-            <li class="FM_f16 FM_bo" onclick="reqFormGATrack('Category-Menu-dropdown-MDC','Sub Cateory-click-key-chain-and-mobile-stand.html','MDC','');"><a href="key-chain-and-mobile-stand.html" class="Fm_lh18 FM_Db">Key Chain And Mobile Stand</a>
-              <ul class="FM_p52">
-                <li class="FM_f14 FM_bo1"><a href="key-chain-and-mobile-stand.html#22805692997" class="Fm_lh17 FM_Db">CC600 Crate Conveyor Chain</a></li>
-                <li class="FM_f14 FM_bo1"><a href="key-chain-and-mobile-stand.html#22482943988" class="Fm_lh17 FM_Db">Casting Chain</a></li>
-              </ul>
-            </li>
-            <li class="FM_f16 FM_bo" onclick="reqFormGATrack('Category-Menu-dropdown-MDC','Sub Cateory-click-conveyor-and-elevator-chains.html','MDC','');"><a href="conveyor-and-elevator-chains.html" class="Fm_lh18 FM_Db">Conveyor And Elevator Chains</a>
-              <ul class="FM_p52">
-                <li class="FM_f14 FM_bo1"><a href="conveyor-and-elevator-chains.html#22482938048" class="Fm_lh17 FM_Db">Z Bucket Elevator Chain</a></li>
-                
-            </ul>
-            </li>
-            <li class="FM_f14 FM_bo1 shrey"><a href="products-and-services.html" class="shrey1 Fm_lh18 FM_Db FM_Lsp FM_td FM_bRds FM_p10 FM_Txtn FM_pr FM_zx1">View All Categories</a></li>
-          </ul>
-        </div>
-      
-  
-    </div>
-    <a href="#news">Link</a>
-    
-  </div>
-  
+        </li>
+        <li><a href="machinery.html">Machinery</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav><!-- .navbar -->
