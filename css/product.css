@@ -1,0 +1,146 @@
+/* product */
+
+.product-item
+{
+  margin: 5px;
+  box-shadow: 5px 5px 5px 5px rgb(164, 160, 160);
+  display: flex;
+}
+.product-img
+{
+  border: 1px solid rgb(11, 11, 11);
+
+  height: 400px;
+  width: 400px;
+}
+.desc
+{
+  /* text-align: center; */
+  width: 100%;
+  background-color: #edf0fa;
+
+}
+.tab
+{
+  width: 100%;
+  border: 1px solid rgb(11, 11, 11);
+  background: rgb(235, 222, 222);
+
+}
+.btn-view
+{
+  margin-left: 100px;
+}
+.td
+{
+  border: 1px solid rgb(11, 11, 11);
+  margin: 15px;
+  padding: 10px;
+}  
+
+/*--------------------------------------------------------------
+  # Breadcrumbs
+  --------------------------------------------------------------*/
+  @keyframes mann {
+    0%{
+    background-image: url("../img/features-1.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    }
+    25%{
+    background-image: url("../img/features-2.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    }
+    50%{
+    background-image:url("../img/features-3.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    }
+    75%{
+    background-image: url("../img/features-4.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    }
+    100%{
+    background-image: url("../img/service-details.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+    }
+  }
+
+  .breadcrumbs .page-header{
+    margin: 0;
+    animation-name: mann;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  .breadcrumbs .page-header {
+    padding: 140px 0 80px 0;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .breadcrumbs .page-header:before {
+    content: "";
+    background-color: rgba(14, 29, 52, 0.8);
+    position: absolute;
+    inset: 0;
+  }
+  
+  .breadcrumbs .page-header h2 {
+    font-size: 56px;
+    font-weight: 500;
+    color: #fff;
+    font-family: var(--font-secondary);
+  }
+  
+  .breadcrumbs .page-header p {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .breadcrumbs nav {
+    background-color: #f3f6fc;
+    padding: 20px 0;
+  }
+  
+  .breadcrumbs nav ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--color-secondary);
+  }
+  
+  .breadcrumbs nav ol a {
+    color: var(--color-primary);
+    transition: 0.3s;
+  }
+  
+  .breadcrumbs nav ol a:hover {
+    text-decoration: underline;
+  }
+  
+  .breadcrumbs nav ol li+li {
+    padding-left: 10px;
+  }
+  
+  .breadcrumbs nav ol li+li::before {
+    display: inline-block;
+    padding-right: 10px;
+    color: #4278cc;
+    content: "/";
+  }
