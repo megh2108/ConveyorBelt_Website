@@ -126,6 +126,47 @@
 /*--------------------------------------------------------------
   # Breadcrumbs
   --------------------------------------------------------------*/
+  @keyframes mann {
+    0%{
+    background-image: url("../img/features-1.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    }
+    25%{
+    background-image: url("../img/features-2.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    }
+    50%{
+    background-image:url("../img/features-3.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    }
+    75%{
+    background-image: url("../img/features-4.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    }
+    100%{
+    background-image: url("../img/service-details.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+    }
+  }
+
+  .breadcrumbs .page-header{
+    animation-name: mann;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
   .breadcrumbs .page-header {
     padding: 140px 0 80px 0;
     position: relative;
@@ -187,7 +228,7 @@
     color: #4278cc;
     content: "/";
   }
-
+  
 /*--------------------------------------------------------------
   # Contact Section
   --------------------------------------------------------------*/
@@ -238,4 +279,5 @@
       transform: rotate(360deg);
     }
   }
+  
   
