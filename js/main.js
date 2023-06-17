@@ -113,9 +113,9 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   /**
-   * Init swiper slider with 1 slide at once in desktop view
+   * Testimonials slider
    */
-  new Swiper('.slides-1', {
+  new Swiper('.testimonials-slider', {
     speed: 600,
     loop: true,
     autoplay: {
@@ -128,9 +128,15 @@ document.addEventListener('DOMContentLoaded', () => {
       type: 'bullets',
       clickable: true
     },
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 40
+      },
+
+      1200: {
+        slidesPerView: 3,
+      }
     }
   });
 
