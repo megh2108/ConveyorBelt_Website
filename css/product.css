@@ -253,7 +253,10 @@
 .product-img
 {
   border: 1px solid rgb(11, 11, 11);
-
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
   height: 400px;
   width: 400px;
 }
@@ -261,20 +264,24 @@
 {
   /* text-align: center; */
   width: 100%;
+  padding-left: 20px;
   background-color: #edf0fa;
 
 }
 .tab
 {
-  width: 100%;
+  width: 800px;
   border: 1px solid rgb(11, 11, 11);
   background: rgb(235, 222, 222);
+  /* margin-lef: 100px; */
 
 }
 .btn-view
 {
-  margin-left: 100px;
+  margin-left: 375px;
+  margin-top: 10px;
 }
+
 .td
 {
   border: 1px solid rgb(11, 11, 11);
@@ -330,3 +337,29 @@ text-decoration: none;
 }
 
 /* Meghhh */
+.offset {
+  box-shadow: 0.3em 0.3em 0 0 var(black), inset 0.3em 0.3em 0 0 var(black);
+}
+.offset:hover, .offset:focus {
+  box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
+}
+
+.offset {
+  --hover: #1973bc;
+  color: black;
+  transition: 0.25s;
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  font-weight:normal;
+  /* margin: 0.5em; */
+  padding: 0.8em 0.8em;
+}
+
+offset:hover, offset:focus {
+  border-color: var(--hover);
+  color: #fff;
+}
+
+
