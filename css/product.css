@@ -247,8 +247,7 @@
 {
   /* box-sizing: border-box; */
   /* width: 100%; */
-  /* margin-left: 5%; */
-  margin: 5px;
+  margin: 2% 2% 2% 2%;
   box-shadow: 5px 5px 5px 5px rgb(164, 160, 160);
   display: flex;
 }
@@ -260,7 +259,7 @@
   margin-right: 10px;
   margin-left: 10px;
   height: 400px;
-  width: 400px;
+  width: 350px;
 }
 .desc
 {
@@ -276,7 +275,7 @@
   /* width: 100%; */
   border: 1px solid rgb(11, 11, 11);
   background: rgb(235, 222, 222);
-  padding-left: 555px;
+  /* margin: auto; */
 
 }
 .btn-view
@@ -302,7 +301,7 @@
 .offset {
   --hover: #1973bc;
   color: black;
-  transition: 0.25s;
+  transition: 0.75s;
   background: none;
   border: 2px solid;
   font: inherit;
