@@ -248,7 +248,7 @@
   /* box-sizing: border-box; */
   /* width: 100%; */
   margin: 2% 2% 2% 2%;
-  box-shadow: 5px 5px 5px 5px rgb(164, 160, 160);
+  box-shadow: 3px 3px 10px 6px rgb(164, 160, 160);
   display: flex;
 }
 .product-img
@@ -272,7 +272,9 @@
 }
 .tab
 {
-  /* width: 100%; */
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: medium;
+  width: 75%;
   border: 1px solid rgb(11, 11, 11);
   background: rgb(235, 222, 222);
   /* margin: auto; */
@@ -299,15 +301,17 @@
 }
 
 .offset {
-  --hover: #1973bc;
-  color: black;
+  --hover: #f7bd04;
+  color: #0709ee;
   transition: 0.75s;
   background: none;
   border: 2px solid;
   font: inherit;
   line-height: 1;
   font-weight:normal;
-  /* margin: 0.5em; */
+  margin-top: 35px;
+  margin-bottom: 35px;
+  margin-left: 45%;
   padding: 0.8em 0.8em;
 }
 
