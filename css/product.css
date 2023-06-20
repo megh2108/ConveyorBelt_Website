@@ -242,6 +242,10 @@
   
 
   /* conveyor-chain css */
+.cv{
+   height: 100vh;
+  overflow-y: auto;
+}
 
 .product-item
 {
@@ -250,6 +254,8 @@
   margin: 2% 2% 2% 2%;
   box-shadow: 3px 3px 10px 6px rgb(164, 160, 160);
   display: flex;
+  /* height: 100vh; */
+  /* overflow-y: auto; */
 }
 .product-img
 {
