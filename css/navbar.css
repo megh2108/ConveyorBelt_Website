@@ -246,6 +246,10 @@ a {
       transition: 0.3s;
       z-index: 9997;
     }
+
+    .navbar .arrow {
+      padding-right: 250px;
+    }
   
     .navbar ul {
       position: absolute;
