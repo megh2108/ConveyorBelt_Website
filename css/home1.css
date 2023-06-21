@@ -157,14 +157,17 @@
     color: #fff;
   }
   
-  @media (max-width: 575px) {
+  @media( (min-width:250px) and (max-width: 1000px) ){
 
     .hero{
-      padding-top: 500px;
+      /* padding-top: 500px; */
+      height: 100%;
+
     }
     .hero h2 {
       font-size: 30px;
     }
+
   }
   
   .hero p {
