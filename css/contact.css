@@ -649,22 +649,22 @@ section {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1001px) {
 
  .map{
     border:0;
-    width: 80vh; 
-    height: 340px;
+    width: 90vh; 
+    height: 350px;
     }
 
 
 }
 
-@media (max-width: 1279px) {
+@media (min-width: 250px) and (max-width: 1000px) {
 
   .map{
     border:0;
-    width: 50vh; 
+    width: 40vh; 
     height: 340px;
     }
 
