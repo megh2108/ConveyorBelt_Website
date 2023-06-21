@@ -76,6 +76,20 @@ a:hover {
     align-items: center;
   }
 
+  .under::after{
+    content: '';
+    width: 0%;
+    height: 4px;
+    background: #f44336;
+    display: block;
+    margin-left: 30px;
+    transition: 0.5s;
+  }
+
+  .under:hover::after{
+    width: 70%;
+  }
+
   .navbar li {
     position: relative;
   }
