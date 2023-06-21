@@ -596,7 +596,13 @@ section {
       background: rgba(14, 29, 52, 0.8);
       z-index: 9996;
     }
+    /* .contact .container .shrey{
+      width: 40vh;
+      margin-right: auto;
+    } */
   }
+
+
 
 /*--------------------------------------------------------------
 # Contact Section
@@ -641,4 +647,25 @@ section {
   100% {
     transform: rotate(360deg);
   }
+}
+
+@media (min-width: 1280px) {
+
+ .map{
+    border:0;
+    width: 80vh; 
+    height: 340px;
+    }
+
+
+}
+
+@media (max-width: 1279px) {
+
+  .map{
+    border:0;
+    width: 50vh; 
+    height: 340px;
+    }
+
 }
