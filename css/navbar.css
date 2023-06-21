@@ -67,6 +67,20 @@ a {
       list-style: none;
       align-items: center;
     }
+
+    .under::after{
+      content: '';
+      width: 0%;
+      height: 4px;
+      background: #f44336;
+      display: block;
+      margin-left: 30px;
+      transition: 0.5s;
+    }
+
+    .under:hover::after{
+      width: 75%;
+    }
   
     .navbar li {
       position: relative;
