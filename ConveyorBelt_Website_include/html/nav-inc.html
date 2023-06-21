@@ -11,10 +11,10 @@
     <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
     <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
     <nav id="navbar" class="navbar">
-      <ul>
-        <li class="under"><a href="home.html" class="active">Home</a></li>
-        <li class="under"><a href="about.html">About</a></li>
-        <li class="dropdown under"><a href="product.html"><span>Our Products</span> <i
+      <ul id="nav-act">
+        <li class="under "><a class="na-lnk" href="home.html">Home</a></li>
+        <li class="under"><a class="na-lnk" href="about.html">About</a></li>
+        <li class="dropdown under"><a class="na-lnk" href="product.html"><span>Our Products</span> <i
               class="bi bi-chevron-down dropdown-indicator"></i></a>
           <ul>
             <li class="dropdown"><a href="#"><span>Conveyor Chains</span> <i
@@ -74,8 +74,8 @@
             <li class="dropdown"><a href="#"><button class="cta">View More</button></a></li>
           </ul>
         </li>
-        <li class="under"><a href="machinery.html">Machinery</a></li>
-        <li class="under"><a href="contact.html">Contact Us</a></li>
+        <li class="under"><a class="na-lnk" href="machinery.html">Machinery</a></li>
+        <li class="under"><a class="na-lnk" href="contact.html">Contact Us</a></li>
       </ul>
     </nav>
   </div>
@@ -84,12 +84,25 @@
 
   <!-- Template Main JS File -->
   <script>
-
+//      ========= sticky navbar  ====================
 const selectHeader = document.querySelector('#header');
   if (selectHeader) {
     document.addEventListener('scroll', () => {
       window.scrollY > 0 ? selectHeader.classList.add('sticked') : selectHeader.classList.remove('sticked');
     });
   }
+
+// =============================== active link ====================
+  var header = document.getElementById("nav-act");  //$('#nav');
+var btns = header.getElementsByClassName("na-lnk"); //$('.nsv-link').each({})
+
+let current_url = window.location.href;
+// window.alert(current_url + " link===> " + btns[1].href);
+
+for (var i = 0; i < btns.length; i++) {
+    if(btns[i].href == current_url) {
+        btns[i].className += " active";
+    }
+}
   </script>
   <!-- <script src="../js/main.js"></script> -->
