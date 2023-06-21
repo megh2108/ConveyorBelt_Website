@@ -137,6 +137,33 @@ a:hover {
     background: #2756ff;
   }
 
+  .cta{
+    position: relative;
+    margin: auto;
+    padding: 10px 15px;
+    transition: all .9s ease;
+    position: relative;
+    font-size: 14px;
+    line-height: 14px;
+    vertical-align: middle;
+  }
+  .cta:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 28px;
+    width: 56px;
+    height: 56px;
+    transition: all .9s ease;
+  }
+  .cta:hover{
+    font-weight: bold;
+    background: #f7bd04;
+    color: #0709ee;
+  }
+  
   .navbar .dropdown ul {
     display: block;
     position: absolute;
