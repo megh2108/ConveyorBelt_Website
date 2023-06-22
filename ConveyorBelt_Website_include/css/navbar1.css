@@ -25,13 +25,18 @@ a:hover {
 .header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 30px 0;
+  padding: 20px 0;
+  /* padding-top: 20px; */
+  /* margin: 10px 0; */
+  background-color: #fff;
 }
 
 .header.sticked {
-  background: rgba(14, 29, 52, 0.9);
-  padding: 15px 0;
-  box-shadow: 0px 2px 20px rgba(14, 29, 52, 0.1);
+  /* background: rgba(14, 29, 52, 0.9); */
+  background: #fff;
+  padding: 10px 0;
+  box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+  /* box-shadow: 0px 2px 20px rgba(14, 29, 52, 0.1); */
 }
 
 .header .logo{
@@ -55,7 +60,7 @@ a:hover {
   font-size: 20px;
   margin: 0;
   font-weight: 700;
-  color: #fff;
+  color: #012970;
   font-family: var(--font-primary);
 }
 
@@ -66,6 +71,8 @@ a:hover {
   .navbar {
     padding: 0;
     margin-left: 267px;
+    /* margin-right: 100px; */
+    /* background-color: #fff; */
   }
 
   .navbar ul {
@@ -103,7 +110,8 @@ a:hover {
     font-family: var(--font-primary);
     font-size: 16px;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.6);
+    color: #013289;
+    /* color: rgba(255, 255, 255, 0.6); */
     white-space: nowrap;
     transition: 0.3s;
   }
@@ -119,7 +127,8 @@ a:hover {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #fff;
+    color: #4154f1;
+    /* color: #fff; */
   }
 
   .navbar .get-a-quote,
@@ -163,7 +172,7 @@ a:hover {
     background: #f7bd04;
     color: #0709ee;
   }
-  
+
   .navbar .dropdown ul {
     display: block;
     position: absolute;
@@ -239,7 +248,6 @@ a:hover {
     display: none;
   }
 }
-
 /*--------------------------------------------------------------
 # Mobile Navigation
 --------------------------------------------------------------*/
@@ -255,12 +263,18 @@ a:hover {
     z-index: 9997;
   }
 
+  .navbar .arrow {
+    padding-right: 250px;
+  }
+
   .navbar ul {
     position: absolute;
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
+    /* background: #fff; */
     background: rgba(14, 29, 52, 0.9);
+    /* background: #e3dfde; */
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -275,6 +289,7 @@ a:hover {
     font-family: var(--font-primary);
     font-size: 16px;
     font-weight: 500;
+    /* color: #013289; */
     color: rgba(255, 255, 255, 0.7);
     white-space: nowrap;
     transition: 0.3s;
@@ -325,7 +340,8 @@ a:hover {
   }
 
   .mobile-nav-show {
-    color: #fff;
+    color: #012970;
+    /* color: #fff; */
     font-size: 28px;
     cursor: pointer;
     line-height: 0;
@@ -335,7 +351,8 @@ a:hover {
   }
 
   .mobile-nav-hide {
-    color: #fff;
+    color: #012970;
+    /* color: #fff; */
     font-size: 32px;
     cursor: pointer;
     line-height: 0;
