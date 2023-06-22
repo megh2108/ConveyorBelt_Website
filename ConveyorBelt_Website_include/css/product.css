@@ -355,6 +355,10 @@ section {
   position: relative;
 }
 
+.section-header h2:hover{
+  color: black;
+}
+
 .section-header h2:after {
   content: "";
   position: absolute;
