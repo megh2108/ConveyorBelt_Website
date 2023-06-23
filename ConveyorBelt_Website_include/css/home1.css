@@ -6,11 +6,11 @@
 }
 
 /* Colors */
-/* :root {
+:root {
   --color-default: #0a0d13;
   --color-primary: #0d42ff;
   --color-secondary: #0e1d34;
-} */
+}
 
 /* Smooth scroll behavior */
 :root {
@@ -22,10 +22,10 @@
 --------------------------------------------------------------*/
 body {
   font-family: var(--font-default);
-  /* color: var(--color-default); */
+  color: var(--color-default);
 }
 
-/* a {
+a {
   color: var(--color-primary);
   text-decoration: none;
 }
@@ -33,7 +33,7 @@ body {
 a:hover {
   color: #406aff;
   text-decoration: none;
-} */
+}
 
 h1,
 h2,
