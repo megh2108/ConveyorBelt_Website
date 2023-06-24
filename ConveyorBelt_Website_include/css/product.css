@@ -40,11 +40,20 @@
   h2,
   h3,
   h4,
-  h5,
-  h6 {
+  h5{
     font-family: var(--font-primary);
   }
 
+  h6{
+    font-family: var(--color-primary);
+    text-align: center;
+    font-size: larger;
+    color: black;
+  }
+
+  h6:hover{
+    color: #012dc9;
+  }
   /*--------------------------------------------------------------
   # Scroll top button
   --------------------------------------------------------------*/
@@ -449,6 +458,8 @@ section {
 }
 
 .tx a {
+  text-decoration:underline dotted;
+  margin-right: 15px;
   display: block;
   text-align: right;
 }
