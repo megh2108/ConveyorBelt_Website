@@ -35,6 +35,9 @@
   <link href="../css/home1.css" rel="stylesheet">
   <link href="../css/footer.css" rel="stylesheet">
 
+  <!-- mdb css -->
+  <link rel="stylesheet" href="../css/mdb.min.css" />
+
 </head>
 
 <body>
@@ -45,274 +48,303 @@
 
   <!-- End Header -->
 
-  <!--Rest Home  -->
-  <!-- ======= Hero Section ======= -->
-  <!--  -->
-  <section id="hero" class="hero d-flex align-items-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 d-flex flex-column justify-content-center">
-          <h1 data-aos="fade-up">We offer modern solutions for growing your business</h1>
-          <h2 data-aos="fade-up" data-aos-delay="400">We are team of talented designers making websites with Bootstrap
-          </h2>
-          <div data-aos="fade-up" data-aos-delay="600">
-            <div class="text-center text-lg-start">
-              <a href="#about"
-                class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
-                <span>Get Started</span>
-                <i class="bi bi-arrow-right"></i>
-              </a>
+  <!-- Carousel wrapper -->
+  <div id="carouselBasicExample" class="carousel slide carousel-fade hero" data-mdb-ride="carousel">
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+      <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1" style="display: none;"></button>
+      <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="1" aria-label="Slide 2"
+        style="display: none;"></button>
+      <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="2" aria-label="Slide 3"
+        style="display: none;"></button>
+    </div>
+
+    <!-- Inner -->
+    <div class="carousel-inner hero d-flex align-items-center  ">
+      <!-- Single item 1-->
+      <div class="carousel-item active">
+        <img src="../img/hero-bg1.png" class="d-block w-100 bg-img" alt="Sunset Over the City" />
+        <div class="carousel-caption d-none d-md-block">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 d-flex flex-column justify-content-left">
+                <h1 data-aos="fade-up">We offer modern solutions for growing your business</h1>
+                <h2 data-aos="fade-up" data-aos-delay="400">We are team of talented designers making websites with
+                  Bootstrap
+                </h2>
+                <!-- <div data-aos="fade-up" data-aos-delay="600">
+                  <div class="text-center text-lg-start">
+                    <a href="#about"
+                      class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                      <span>Get Started</span>
+                      <i class="bi bi-arrow-right"></i>
+                    </a>
+                  </div>
+                </div> -->
+              </div>
+              <div class="col-lg-6 hero-img justify-content-right" data-aos="zoom-out" data-aos-delay="200">
+                <img src="../img/hero-img.png" class="img-fluid" alt="">
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-          <img src="../img/hero-img.png" class="img-fluid" alt="">
+      </div>
+
+      <!-- Single item 2-->
+      <div class="carousel-item">
+        <img src="../img/hero-bg1.png" class="d-block w-100 bg-img" alt="Canyon at Nigh" />
+        <div class="carousel-caption d-none d-md-block">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 d-flex flex-column justify-content-left">
+                <h1 data-aos="fade-up">We offer modern project for growing you</h1>
+                <h2 data-aos="fade-up" data-aos-delay="400">We are team of talented designers making websites with
+                  Bootstrap
+                </h2>
+                <!-- <div data-aos="fade-up" data-aos-delay="600">
+                  <div class="text-center text-lg-start">
+                    <a href="#about"
+                      class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                      <span>Get Started</span>
+                      <i class="bi bi-arrow-right"></i>
+                    </a>
+                  </div>
+                </div> -->
+              </div>
+              <div class="col-lg-6 hero-img justify-content-right" data-aos="zoom-out" data-aos-delay="200">
+                <img src="../img/hero-img.png" class="img-fluid" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Single item 3-->
+      <div class="carousel-item">
+        <img src="../img/hero-bg1.png" class="d-block w-100 bg-img " alt="Cliff Above a Stormy Sea" />
+        <div class="carousel-caption d-none d-md-block">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 d-flex flex-column justify-content-left">
+                <h1 data-aos="fade-up">We are BVMITES</h1>
+                <h2 data-aos="fade-up" data-aos-delay="400">We are team of talented students making websites for
+                  Conveyor Industry.
+
+                </h2>
+                <!-- <div data-aos="fade-up" data-aos-delay="600">
+                  <div class="text-center text-lg-start">
+                    <a href="#about"
+                      class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                      <span>Let's GO</span>
+                      <i class="bi bi-arrow-right"></i>
+                    </a>
+                  </div>
+                </div> -->
+              </div>
+              <div class="col-lg-6 hero-img justify-content-right" data-aos="zoom-out" data-aos-delay="200">
+                <img src="../img/hero-img.png" class="img-fluid" alt="">
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+    <!-- Inner -->
 
-
-  </section><!-- End Hero Section -->
-
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="prev"
+      style="display: none;">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="next"
+      style="display: none;">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Carousel wrapper -->
 
   <!--Rest Home End  -->
 
-  <!-- ======= Testimonials Section ======= -->
-  <section id="testimonials" class="testimonials">
+  <!-- carousal start -->
 
-    <div class="container aos-init aos-animate" data-aos="fade-up">
+  <div id="carouselExampleCaptions" class="carousel slide" data-mdb-ride="carousel">
+    <div class="carousel-indicators" style="padding-top:10px">
+      <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1" style="background-color:black;"></button>
+      <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="1"
+        aria-label="Slide 2" style="background-color:black;"></button>
+      <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="2"
+        aria-label="Slide 3" style="background-color:black;"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="min-height:100%;margin-bottom: 50px;margin-top: 50px;">
+        <div class="container">
 
-      <div class="section-header">
-        <span>Testimonials</span>
-        <h2>Testimonials</h2>
-
-      </div>
-
-      <div
-        class="testimonials-slider swiper swiper-initialized swiper-horizontal swiper-pointer-events aos-init aos-animate"
-        data-aos="fade-up" data-aos-delay="200">
-        <div class="swiper-wrapper" id="swiper-wrapper-3e28fa3da41d555f" aria-live="off"
-          style="transform: translate3d(-2226.67px, 0px, 0px); transition-duration: 0ms;">
-          <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" role="group" aria-label="3 / 5"
-            style="width: 405.333px; margin-right: 40px;" data-swiper-slide-index="2">
-            <div class="testimonial-item">
-              <div class="stars">
-                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+          <div class="prod1">
+            <a href="../html/conveyor-chains.html#cc1">
+              <div class="produ1">
+                <div class="ima_text">
+                  <img src="../img/product/Shrey/EN8 MS DOUBLE.webp" alt="Not Available">
+                  <br>
+                  <hr>
+                  <h6>EN8 MS Double Strand Roller Chain</h6>
+                </div>
               </div>
-              <p>
-                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor
-                labore quem eram duis noster aute amet eram fore quis sint minim.
-              </p>
-              <div class="profile mt-auto">
-                <img src="../img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
+            </a>
+  
+            <a href="../html/conveyor-chains.html#cc2">
+              <div class="produ1">
+                <div class="ima_text">
+                  <img src="../img/product/Shrey/SS316.webp" alt="Not Available">
+                  <br>
+                  <hr>
+                  <h6>SS316 Double Pitch Conveyor Chains</h6>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" role="group" aria-label="4 / 5"
-            style="width: 405.333px; margin-right: 40px;" data-swiper-slide-index="3">
-            <div class="testimonial-item">
-              <div class="stars">
-                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </a>
+  
+            <a href="../html/conveyor-chains.html#cc3">
+              <div class="produ1">
+                <div class="ima_text">
+                  <img src="../img/product/Shrey/EN8 MS SINGLE.webp" alt="Not Available"><br>
+                  <hr>
+                  <h6>EN8 MS Single Pitch Conveyor Chain</h6>
+                </div>
               </div>
-              <p>
-                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim
-                dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-              </p>
-              <div class="profile mt-auto">
-                <img src="../img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
+            </a>
+  
+            <a href="../html/conveyor-chains.html#cc4">
+              <div class="produ1">
+                <div class="ima_text">
+                  <img src="../img/product/Shrey/STANDARD CONVEYOR.webp" alt="Not Available">
+                  <br>
+                  <hr>
+                  <h6>Standard Conveyor Chains</h6><br>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="swiper-slide swiper-slide-duplicate" role="group" aria-label="5 / 5"
-            style="width: 405.333px; margin-right: 40px;" data-swiper-slide-index="4">
-            <div class="testimonial-item">
-              <div class="stars">
-                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-              </div>
-              <p>
-                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa
-                labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-              </p>
-              <div class="profile mt-auto">
-                <img src="../img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-slide" role="group" aria-label="1 / 5" style="width: 405.333px; margin-right: 40px;"
-            data-swiper-slide-index="0">
-            <div class="testimonial-item">
-              <div class="stars">
-                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-              </div>
-              <p>
-                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
-                quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-              </p>
-              <div class="profile mt-auto">
-                <img src="../img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-              </div>
-            </div>
-          </div><!-- End testimonial item -->
-
-          <div class="swiper-slide swiper-slide-prev" role="group" aria-label="2 / 5"
-            style="width: 405.333px; margin-right: 40px;" data-swiper-slide-index="1">
-            <div class="testimonial-item">
-              <div class="stars">
-                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-              </div>
-              <p>
-                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis
-                quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-              </p>
-              <div class="profile mt-auto">
-                <img src="../img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-              </div>
-            </div>
-          </div><!-- End testimonial item -->
-
-          <div class="swiper-slide swiper-slide-active" role="group" aria-label="3 / 5"
-            style="width: 405.333px; margin-right: 40px;" data-swiper-slide-index="2">
-            <div class="testimonial-item">
-              <div class="stars">
-                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-              </div>
-              <p>
-                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor
-                labore quem eram duis noster aute amet eram fore quis sint minim.
-              </p>
-              <div class="profile mt-auto">
-                <img src="../img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-              </div>
-            </div>
-          </div><!-- End testimonial item -->
-
-          <div class="swiper-slide swiper-slide-next" role="group" aria-label="4 / 5"
-            style="width: 405.333px; margin-right: 40px;" data-swiper-slide-index="3">
-            <div class="testimonial-item">
-              <div class="stars">
-                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-              </div>
-              <p>
-                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim
-                dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-              </p>
-              <div class="profile mt-auto">
-                <img src="../img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-              </div>
-            </div>
-          </div><!-- End testimonial item -->
-
-          <div class="swiper-slide" role="group" aria-label="5 / 5" style="width: 405.333px; margin-right: 40px;"
-            data-swiper-slide-index="4">
-            <div class="testimonial-item">
-              <div class="stars">
-                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-              </div>
-              <p>
-                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa
-                labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-              </p>
-              <div class="profile mt-auto">
-                <img src="../img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-              </div>
-            </div>
-          </div><!-- End testimonial item -->
-
-          <div class="swiper-slide swiper-slide-duplicate" role="group" aria-label="1 / 5"
-            style="width: 405.333px; margin-right: 40px;" data-swiper-slide-index="0">
-            <div class="testimonial-item">
-              <div class="stars">
-                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-              </div>
-              <p>
-                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
-                quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-              </p>
-              <div class="profile mt-auto">
-                <img src="../img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" role="group" aria-label="2 / 5"
-            style="width: 405.333px; margin-right: 40px;" data-swiper-slide-index="1">
-            <div class="testimonial-item">
-              <div class="stars">
-                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-              </div>
-              <p>
-                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis
-                quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-              </p>
-              <div class="profile mt-auto">
-                <img src="../img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" role="group" aria-label="3 / 5"
-            style="width: 405.333px; margin-right: 40px;" data-swiper-slide-index="2">
-            <div class="testimonial-item">
-              <div class="stars">
-                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-              </div>
-              <p>
-                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor
-                labore quem eram duis noster aute amet eram fore quis sint minim.
-              </p>
-              <div class="profile mt-auto">
-                <img src="../img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-              </div>
-            </div>
+            </a>
           </div>
         </div>
-        <div
-          class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
-          <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span
-            class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span
-            class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button"
-            aria-label="Go to slide 3" aria-current="true"></span><span class="swiper-pagination-bullet" tabindex="0"
-            role="button" aria-label="Go to slide 4"></span><span class="swiper-pagination-bullet" tabindex="0"
-            role="button" aria-label="Go to slide 5"></span></div>
-        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
       </div>
+      <div class="carousel-item" style="min-height:100%;margin-bottom: 50px;margin-top: 50px;">
+        <div class="container">
 
+          <div class="prod1">
+            <a href="../html/conveyor-chains.html#cc1">
+              <div class="produ1">
+                <div class="ima_text">
+                  <img src="../img/product/Shrey/EN8 MS DOUBLE.webp" alt="Not Available">
+                  <br>
+                  <hr>
+                  <h6>EN8 MS Double Strand Roller Chain</h6>
+                </div>
+              </div>
+            </a>
+  
+            <a href="../html/conveyor-chains.html#cc2">
+              <div class="produ1">
+                <div class="ima_text">
+                  <img src="../img/product/Shrey/SS316.webp" alt="Not Available">
+                  <br>
+                  <hr>
+                  <h6>SS316 Double Pitch Conveyor Chains</h6>
+                </div>
+              </div>
+            </a>
+  
+            <a href="../html/conveyor-chains.html#cc3">
+              <div class="produ1">
+                <div class="ima_text">
+                  <img src="../img/product/Shrey/EN8 MS SINGLE.webp" alt="Not Available"><br>
+                  <hr>
+                  <h6>EN8 MS Single Pitch Conveyor Chain</h6>
+                </div>
+              </div>
+            </a>
+  
+            <a href="../html/conveyor-chains.html#cc4">
+              <div class="produ1">
+                <div class="ima_text">
+                  <img src="../img/product/Shrey/STANDARD CONVEYOR.webp" alt="Not Available">
+                  <br>
+                  <hr>
+                  <h6>Standard Conveyor Chains</h6><br>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item" style="min-height:100%;margin-bottom: 50px;margin-top: 50px;">
+        <div class="container">
+
+          <div class="prod1">
+            <a href="../html/conveyor-chains.html#cc1">
+              <div class="produ1">
+                <div class="ima_text">
+                  <img src="../img/product/Shrey/EN8 MS DOUBLE.webp" alt="Not Available">
+                  <br>
+                  <hr>
+                  <h6>EN8 MS Double Strand Roller Chain</h6>
+                </div>
+              </div>
+            </a>
+  
+            <a href="../html/conveyor-chains.html#cc2">
+              <div class="produ1">
+                <div class="ima_text">
+                  <img src="../img/product/Shrey/SS316.webp" alt="Not Available">
+                  <br>
+                  <hr>
+                  <h6>SS316 Double Pitch Conveyor Chains</h6>
+                </div>
+              </div>
+            </a>
+  
+            <a href="../html/conveyor-chains.html#cc3">
+              <div class="produ1">
+                <div class="ima_text">
+                  <img src="../img/product/Shrey/EN8 MS SINGLE.webp" alt="Not Available"><br>
+                  <hr>
+                  <h6>EN8 MS Single Pitch Conveyor Chain</h6>
+                </div>
+              </div>
+            </a>
+  
+            <a href="../html/conveyor-chains.html#cc4">
+              <div class="produ1">
+                <div class="ima_text">
+                  <img src="../img/product/Shrey/STANDARD CONVEYOR.webp" alt="Not Available">
+                  <br>
+                  <hr>
+                  <h6>Standard Conveyor Chains</h6><br>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
+    <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleCaptions"
+      data-mdb-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color:black;padding-bottom: 45px;"></span>
+      <span class="visually-hidden" >Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleCaptions"
+      data-mdb-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true" style="background-color:black;padding-bottom: 45px;"></span>
+      <span class="visually-hidden" >Next</span>
+    </button>
+  </div>
 
-  </section>
-  <!-- End Testimonials Section -->
+  <!-- carousal end -->
+
+
+  
+  
 
 
   <!-- ======= Footer ======= -->
@@ -338,6 +370,9 @@
 
   <!-- Template Main JS File -->
   <script src="../js/main.js"></script>
+
+  <!-- mdb js -->
+  <script type="text/javascript" src="../js/mdb.min.js"></script>
 
   <!-- include html  -->
 
