@@ -225,11 +225,7 @@ height:100vh
     line-height: 0;
   }
   
-  .section-header p {
-    margin-bottom: 0;
-    position: relative;
-    z-index: 2;
-  }
+  
   
   @media (max-width: 640px) {
     .section-header h2 {
