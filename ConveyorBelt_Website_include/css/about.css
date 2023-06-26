@@ -494,9 +494,10 @@
 .ima_text {
   height: 342.4px;
   box-sizing: border-box;
-  box-shadow: 9px 8px 15px 0px #d49d9d73;
-  border: 2px solid #f9f3f3;
+  /* box-shadow: 9px 8px 15px 0px #d49d9d73; */
+  border: 2px solid #f76c6c;
   padding: 10px;
+  border-radius: 10px;
   /* text-align: center; */
 }
 
