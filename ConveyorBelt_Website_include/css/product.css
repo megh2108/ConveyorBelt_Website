@@ -514,3 +514,11 @@ section {
   margin-top: -09px;
   transition: 0.5s;
 }  */
+
+@media (max-width: 1000px) {
+  .product-item{
+    flex-wrap: wrap;
+  }
+
+}
+ 
