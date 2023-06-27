@@ -416,11 +416,8 @@ section {
     justify-content: space-evenly;
     display: block;
   }
-
-  .produ1{
-    /* display: block; */
-  }
 }
+
 
 .prod1 {
   display: flex;
@@ -515,12 +512,10 @@ section {
   transition: 0.5s;
 }  */
 
+/* For responsiveness in individual products */
 @media (max-width: 1000px) {
   .product-item{
     flex-wrap: wrap;
   }
+} 
 
-}
-
-/* product */
- 
