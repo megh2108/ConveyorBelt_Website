@@ -217,7 +217,7 @@
   .breadcrumbs .page-header{
     animation-name: mann;
     animation-duration: 20s;
-    animation-delay: 2s;
+    animation-delay: 0s, 2s;
     animation-iteration-count: infinite;
     /* animation-direction: alternate; */
   }

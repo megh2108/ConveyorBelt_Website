@@ -154,7 +154,7 @@ section {
   .breadcrumbs .page-header{
     animation-name: mann;
     animation-duration: 15s;
-    animation-delay: 3s;
+    animation-delay: 0s, 3s;
     animation-iteration-count: infinite;
     /* animation-direction: alternate; */
   }
