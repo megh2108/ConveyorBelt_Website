@@ -12,13 +12,17 @@
   <!-- Favicons -->
   <link href="../img/favicon.png" rel="icon">
   <link href="../img/apple-touch-icon.png" rel="apple-touch-icon">
-
+  
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
-    rel="stylesheet">
+  href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+  rel="stylesheet">
+  
+  <!-- font awsome -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
 
   <!-- Vendor CSS Files -->
   <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -28,6 +32,8 @@
   <link href="../vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="../vendor/aos/aos.css" rel="stylesheet">
   <link href="../vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="../vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+
 
 
   <!-- Template Main CSS File -->
@@ -35,6 +41,11 @@
   <link href="../css/home1.css" rel="stylesheet">
   <link href="../css/carousel.css" rel="stylesheet">
   <link href="../css/footer.css" rel="stylesheet">
+
+  <!-- Fancybox Links -->
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+
 
   <!-- mdb css -->
   <!-- <link rel="stylesheet" href="../css/mdb.min.css" /> -->
@@ -168,7 +179,7 @@
   </div>
   <!-- Home carousel wrapper end -->
 
- 
+
 
   <!-- Image carousal start -->
 
@@ -181,24 +192,24 @@
     <div class="carousel-indicators" style="padding-top:10px">
       <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="0" class="active"
         aria-current="true" aria-label="Slide 1" style="background-color:black;"></button>
-      <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="1"
-        aria-label="Slide 2" style="background-color:black;"></button>
-      <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="2"
-        aria-label="Slide 3" style="background-color:black;"></button>
-      <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="3"
-        aria-label="Slide 4" style="background-color:black;"></button>
-      <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="4"
-        aria-label="Slide 5" style="background-color:black;"></button>
-      <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="5"
-        aria-label="Slide 6" style="background-color:black;display: none;"></button>
-      <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="6"
-        aria-label="Slide 7" style="background-color:black;display: none;"></button>
-      <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="7"
-        aria-label="Slide 8" style="background-color:black;display: none;"></button>
-      <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="8"
-        aria-label="Slide 9" style="background-color:black;display: none;"></button>
-      <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="9"
-        aria-label="Slide 10" style="background-color:black;display: none;"></button>
+      <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="1" aria-label="Slide 2"
+        style="background-color:black;"></button>
+      <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="2" aria-label="Slide 3"
+        style="background-color:black;"></button>
+      <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="3" aria-label="Slide 4"
+        style="background-color:black;"></button>
+      <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="4" aria-label="Slide 5"
+        style="background-color:black;"></button>
+      <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="5" aria-label="Slide 6"
+        style="background-color:black;display: none;"></button>
+      <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="6" aria-label="Slide 7"
+        style="background-color:black;display: none;"></button>
+      <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="7" aria-label="Slide 8"
+        style="background-color:black;display: none;"></button>
+      <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="8" aria-label="Slide 9"
+        style="background-color:black;display: none;"></button>
+      <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="9" aria-label="Slide 10"
+        style="background-color:black;display: none;"></button>
     </div>
     <div class="carousel-inner">
       <!--product-div-1-->
@@ -216,7 +227,7 @@
                 </div>
               </div>
             </a>
-  
+
             <a href="../html/conveyor-chains.html#cc2">
               <div class="produ1">
                 <div class="ima_text">
@@ -227,7 +238,7 @@
                 </div>
               </div>
             </a>
-  
+
             <a href="../html/conveyor-chains.html#cc3">
               <div class="produ1">
                 <div class="ima_text">
@@ -237,7 +248,7 @@
                 </div>
               </div>
             </a>
-  
+
             <a href="../html/conveyor-chains.html#cc4">
               <div class="produ1">
                 <div class="ima_text">
@@ -258,46 +269,50 @@
           <div class="prod1">
             <a href="../html/industrial-chain.html#ic1">
               <div class="produ1">
-                  <div class="ima_text">
-                      <img src="../img/product/Tilak/slat_chain-3.webp" alt="Not Available"
-                          style="width: 242px; height: 230px;">
-                      <br>
-                      <hr>
-                      <h6>Slat Chain</h6>
-                  </div>
-              </div></a>
-  
-              <a href="../html/industrial-chain.html#ic2">
+                <div class="ima_text">
+                  <img src="../img/product/Tilak/slat_chain-3.webp" alt="Not Available"
+                    style="width: 242px; height: 230px;">
+                  <br>
+                  <hr>
+                  <h6>Slat Chain</h6>
+                </div>
+              </div>
+            </a>
+
+            <a href="../html/industrial-chain.html#ic2">
               <div class="produ1">
-                  <div class="ima_text">
-                      <img src="../img/product/Tilak/sugar_industries_chain-1.webp" alt="Not Available"
-                          style="width: 242px; height: 230px;">
-                      <br>
-                      <hr>
-                      <h6>Sugar Industries Chain</h6>
-                  </div>
-              </div></a>
-  
-              <a href="../html/industrial-chain.html#ic3">
+                <div class="ima_text">
+                  <img src="../img/product/Tilak/sugar_industries_chain-1.webp" alt="Not Available"
+                    style="width: 242px; height: 230px;">
+                  <br>
+                  <hr>
+                  <h6>Sugar Industries Chain</h6>
+                </div>
+              </div>
+            </a>
+
+            <a href="../html/industrial-chain.html#ic3">
               <div class="produ1">
-                  <div class="ima_text">
-                      <img src="../img/product/Tilak/cc600-3.webp" alt="Not Available"
-                          style="width: 242px; height: 230px;"><br>
-                      <hr>
-                      <h6>Cc600</h6>
-                  </div>
-              </div></a>
-  
-              <a href="../html/industrial-chain.html#ic4">
+                <div class="ima_text">
+                  <img src="../img/product/Tilak/cc600-3.webp" alt="Not Available"
+                    style="width: 242px; height: 230px;"><br>
+                  <hr>
+                  <h6>Cc600</h6>
+                </div>
+              </div>
+            </a>
+
+            <a href="../html/industrial-chain.html#ic4">
               <div class="produ1">
-                  <div class="ima_text">
-                      <img src="../img/product/Tilak/cement_industries_chain-2.webp" alt="Not Available"
-                          style="width: 242px; height: 230px;">
-                      <br>
-                      <hr>
-                      <h6>Cement Industries Chain</h6><br>
-                  </div>
-              </div></a>
+                <div class="ima_text">
+                  <img src="../img/product/Tilak/cement_industries_chain-2.webp" alt="Not Available"
+                    style="width: 242px; height: 230px;">
+                  <br>
+                  <hr>
+                  <h6>Cement Industries Chain</h6><br>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -308,47 +323,50 @@
           <div class="prod1">
             <a href="../html/conveyor-attachments.html#ca1">
               <div class="produ1">
-                  <div class="ima_text">
-                      <img src="../img/product/Tilak/double_side_mild_steel_conveyor_chain_attachment-1.webp"
-                          alt="Not Available">
-                      <br>
-                      <hr>
-                      <h6>MS Double Side Conveyor Chain Attachment</h6>
-                  </div>
-              </div></a>
-  
-              <a href="../html/conveyor-attachments.html#ca2">
+                <div class="ima_text">
+                  <img src="../img/product/Tilak/double_side_mild_steel_conveyor_chain_attachment-1.webp"
+                    alt="Not Available">
+                  <br>
+                  <hr>
+                  <h6>MS Double Side Conveyor Chain Attachment</h6>
+                </div>
+              </div>
+            </a>
+
+            <a href="../html/conveyor-attachments.html#ca2">
               <div class="produ1">
-                  <div class="ima_text">
-                      <img src="../img/product/Tilak/large_pitch_single_sided_bend_attachments-1.webp"
-                          alt="Not Available">
-                      <br>
-                      <hr>
-                      <h6>Large Pitch Single Sided Bend Attachments</h6>
-                  </div>
-              </div></a>
-  
-              <a href="../html/keychain_mobilestand.html#km1">
-                <div class="produ1">
-                    <div class="ima_text">
-                        <img src="../img/product/Megh/cc600-crate-conveyor-chain-5.webp" alt="Not Available"
-                            style="width:242px; height:230px;">
-                        <br>
-                        <hr>
-                        <h6>Cc600 Crate Conveyor Chain</h6>
-                    </div>
-                </div></a>
-    
-                <a href="../html/keychain_mobilestand.html#km2">
-                <div class="produ1">
-                    <div class="ima_text">
-                        <img src="../img/product/Megh/casting-chain-1.webp" alt="Not Available"
-                            style="width: 242px; height: 230px;">
-                        <br>
-                        <hr>
-                        <h6>Casting Chain</h6>
-                      </div>
-                    </div></a>
+                <div class="ima_text">
+                  <img src="../img/product/Tilak/large_pitch_single_sided_bend_attachments-1.webp" alt="Not Available">
+                  <br>
+                  <hr>
+                  <h6>Large Pitch Single Sided Bend Attachments</h6>
+                </div>
+              </div>
+            </a>
+
+            <a href="../html/keychain_mobilestand.html#km1">
+              <div class="produ1">
+                <div class="ima_text">
+                  <img src="../img/product/Megh/cc600-crate-conveyor-chain-5.webp" alt="Not Available"
+                    style="width:242px; height:230px;">
+                  <br>
+                  <hr>
+                  <h6>Cc600 Crate Conveyor Chain</h6>
+                </div>
+              </div>
+            </a>
+
+            <a href="../html/keychain_mobilestand.html#km2">
+              <div class="produ1">
+                <div class="ima_text">
+                  <img src="../img/product/Megh/casting-chain-1.webp" alt="Not Available"
+                    style="width: 242px; height: 230px;">
+                  <br>
+                  <hr>
+                  <h6>Casting Chain</h6>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -359,47 +377,51 @@
           <div class="prod1">
             <a href="../html/attachment-chains.html#ac1">
               <div class="produ1">
-                  <div class="ima_text">
-                      <img src="../img/product/Megh/all-type-attachment-chain-4.webp" alt="Not Available"
-                          style="width: 242px; height: 230px;">
-                      <br>
-                      <hr>
-                      <h6>All type attachment chain</h6>
-                  </div>
-              </div></a>
-  
-              <a href="../html/attachment-chains.html#ac2">
+                <div class="ima_text">
+                  <img src="../img/product/Megh/all-type-attachment-chain-4.webp" alt="Not Available"
+                    style="width: 242px; height: 230px;">
+                  <br>
+                  <hr>
+                  <h6>All type attachment chain</h6>
+                </div>
+              </div>
+            </a>
+
+            <a href="../html/attachment-chains.html#ac2">
               <div class="produ1">
-                  <div class="ima_text">
-                      <img src="../img/product/Megh/chain-attachments-1.webp" alt="Not Available"
-                          style="width: 242px; height: 230px;">
-                      <br>
-                      <hr>
-                      <h6>Chain Attachments</h6>
-                  </div>
-              </div></a>
+                <div class="ima_text">
+                  <img src="../img/product/Megh/chain-attachments-1.webp" alt="Not Available"
+                    style="width: 242px; height: 230px;">
+                  <br>
+                  <hr>
+                  <h6>Chain Attachments</h6>
+                </div>
+              </div>
+            </a>
 
-              <a href="../html/conveyor_elevator-chains.html#ce1">
-                <div class="produ12">
-                    <div class="ima_text">
-                        <img src="../img/product/Megh/z-bucket-elevator-chain-1.webp" alt="Not Available"
-                            style="width: 242px; height: 230px;">
-                        <br>
-                        <hr>
-                        <h6>Z Bucket Elevator Chain</h6>
-                    </div>
-                </div></a>
+            <a href="../html/conveyor_elevator-chains.html#ce1">
+              <div class="produ12">
+                <div class="ima_text">
+                  <img src="../img/product/Megh/z-bucket-elevator-chain-1.webp" alt="Not Available"
+                    style="width: 242px; height: 230px;">
+                  <br>
+                  <hr>
+                  <h6>Z Bucket Elevator Chain</h6>
+                </div>
+              </div>
+            </a>
 
-                <a href="../html/roller-conveyors.html#rc1">
-                  <div class="produ1">
-                      <div class="ima_text">
-                          <img src="../img/product/Megh/assembly-line-mild-steel-expandable-conveyor-1.webp"
-                              alt="Not Available">
-                          <br>
-                          <hr>
-                          <h6>Roller Conveyor</h6>
-                      </div>
-                  </div></a>
+            <a href="../html/roller-conveyors.html#rc1">
+              <div class="produ1">
+                <div class="ima_text">
+                  <img src="../img/product/Megh/assembly-line-mild-steel-expandable-conveyor-1.webp"
+                    alt="Not Available">
+                  <br>
+                  <hr>
+                  <h6>Roller Conveyor</h6>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -410,42 +432,46 @@
           <div class="prod1">
             <a href="../html/roller-conveyors.html#rc2">
               <div class="produ1">
-                  <div class="ima_text">
-                      <img src="../img/product/Megh/idler-roller-conveyor-1.webp" alt="Not Available">
-                      <br>
-                      <hr>
-                      <h6>IDLER Roller Conveyor</h6>
-                  </div>
-              </div></a>
-  
-              <a href="../html/conveyor-roller.html#cr1">
-                <div class="produ1">
-                    <div class="ima_text">
-                        <img src="../img/product/Megh/self-aligning-idler-1.webp" alt="Not Available">
-                        <br>
-                        <hr>
-                        <h6>Self Aligning Idler</h6>
-                    </div>
-                </div></a>
-    
-                <a href="../html/conveyor-roller.html#cr2">
-                <div class="produ1">
-                    <div class="ima_text">
-                        <img src="../img/product/Megh/idler-roller-1.webp" alt="Not Available">
-                        <br>
-                        <hr>
-                        <h6>Idler Roller</h6>
-                    </div>
-                </div></a>
-    
-                <a href="../html/conveyor-roller.html#cr3">
-                <div class="produ1">
-                    <div class="ima_text">
-                        <img src="../img/product/Megh/carrying-idler-1.webp" alt="Not Available"><br>
-                        <hr>
-                        <h6>CARRYING IDLER</h6>
-                    </div>
-                </div></a>
+                <div class="ima_text">
+                  <img src="../img/product/Megh/idler-roller-conveyor-1.webp" alt="Not Available">
+                  <br>
+                  <hr>
+                  <h6>IDLER Roller Conveyor</h6>
+                </div>
+              </div>
+            </a>
+
+            <a href="../html/conveyor-roller.html#cr1">
+              <div class="produ1">
+                <div class="ima_text">
+                  <img src="../img/product/Megh/self-aligning-idler-1.webp" alt="Not Available">
+                  <br>
+                  <hr>
+                  <h6>Self Aligning Idler</h6>
+                </div>
+              </div>
+            </a>
+
+            <a href="../html/conveyor-roller.html#cr2">
+              <div class="produ1">
+                <div class="ima_text">
+                  <img src="../img/product/Megh/idler-roller-1.webp" alt="Not Available">
+                  <br>
+                  <hr>
+                  <h6>Idler Roller</h6>
+                </div>
+              </div>
+            </a>
+
+            <a href="../html/conveyor-roller.html#cr3">
+              <div class="produ1">
+                <div class="ima_text">
+                  <img src="../img/product/Megh/carrying-idler-1.webp" alt="Not Available"><br>
+                  <hr>
+                  <h6>CARRYING IDLER</h6>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -456,44 +482,47 @@
           <div class="prod1">
             <a href="../html/conveyor-roller.html#cr4">
               <div class="produ1">
-                  <div class="ima_text">
-                      <img src="../img/product/Megh/return-idler-1.webp" alt="Not Available">
-                      <br>
-                      <hr>
-                      <h6>Return IDLER</h6><br>
-                  </div>
-              </div></a>
+                <div class="ima_text">
+                  <img src="../img/product/Megh/return-idler-1.webp" alt="Not Available">
+                  <br>
+                  <hr>
+                  <h6>Return IDLER</h6><br>
+                </div>
+              </div>
+            </a>
 
-              <a href="../html/carrier-chain.html#cac1">
-                <div class="produ1">
-                    <div class="ima_text">
-                        <img src="../img/product/Mann/05.webp" alt="Not Available" style="width: 242px; height: 230px;">
-                        <br>
-                        <hr>
-                        <h6>Baggase Carrier Chain</h6>
-                    </div>
-                </div></a>
-    
-                <a href="../html/carrier-chain.html#cac2">
-                <div class="produ1">
-                    <div class="ima_text">
-                        <img src="../img/product/Mann/06.webp" alt="Not Available" style="width: 242px; height: 230px;">
-                        <br>
-                        <hr>
-                        <h6>Carrier Chain</h6>
-                    </div>
-                </div></a>
+            <a href="../html/carrier-chain.html#cac1">
+              <div class="produ1">
+                <div class="ima_text">
+                  <img src="../img/product/Mann/05.webp" alt="Not Available" style="width: 242px; height: 230px;">
+                  <br>
+                  <hr>
+                  <h6>Baggase Carrier Chain</h6>
+                </div>
+              </div>
+            </a>
 
-                <a href="../html/viewother-products.html#vop1">
-                  <div class="produ1">
-                      <div class="ima_text">
-                          <img src="../img/product/Mann/07.webp" alt="Not Available"
-                              style="width: 242px; height: 230px;">
-                          <br>
-                          <hr>
-                          <h6>Extended Pin Chains</h6>
-                      </div>
-                  </div></a>
+            <a href="../html/carrier-chain.html#cac2">
+              <div class="produ1">
+                <div class="ima_text">
+                  <img src="../img/product/Mann/06.webp" alt="Not Available" style="width: 242px; height: 230px;">
+                  <br>
+                  <hr>
+                  <h6>Carrier Chain</h6>
+                </div>
+              </div>
+            </a>
+
+            <a href="../html/viewother-products.html#vop1">
+              <div class="produ1">
+                <div class="ima_text">
+                  <img src="../img/product/Mann/07.webp" alt="Not Available" style="width: 242px; height: 230px;">
+                  <br>
+                  <hr>
+                  <h6>Extended Pin Chains</h6>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -504,47 +533,47 @@
           <div class="prod1">
             <a href="../html/diamondroller-chain.html#dr1">
               <div class="produ1">
-                  <div class="ima_text">
-                      <img src="../img/product/Mann/12.webp" alt="Not Available"
-                          style="width: 242px; height: 230px;">
-                      <br>
-                      <hr>
-                      <h6>Roller Chain</h6>
-                  </div>
-              </div></a>
+                <div class="ima_text">
+                  <img src="../img/product/Mann/12.webp" alt="Not Available" style="width: 242px; height: 230px;">
+                  <br>
+                  <hr>
+                  <h6>Roller Chain</h6>
+                </div>
+              </div>
+            </a>
 
-              <a href="../html/viewother-products.html#vop2">
-                <div class="produ1">
-                    <div class="ima_text">
-                        <img src="../img/product/Mann/17.webp" alt="Not Available"
-                            style="width: 242px; height: 230px;">
-                        <br>
-                        <hr>
-                        <h6>Transmission Chain</h6>
-                    </div>
-                </div></a>
+            <a href="../html/viewother-products.html#vop2">
+              <div class="produ1">
+                <div class="ima_text">
+                  <img src="../img/product/Mann/17.webp" alt="Not Available" style="width: 242px; height: 230px;">
+                  <br>
+                  <hr>
+                  <h6>Transmission Chain</h6>
+                </div>
+              </div>
+            </a>
 
-                <a href="../html/viewother-products.html#vop3">
-                  <div class="produ1">
-                      <div class="ima_text">
-                          <img src="../img/product/Mann/18.webp" alt="Not Available"
-                              style="width: 242px; height: 230px;">
-                          <br>
-                          <hr>
-                          <h6>Simplex Roller Chain</h6>
-                      </div>
-                  </div></a>
+            <a href="../html/viewother-products.html#vop3">
+              <div class="produ1">
+                <div class="ima_text">
+                  <img src="../img/product/Mann/18.webp" alt="Not Available" style="width: 242px; height: 230px;">
+                  <br>
+                  <hr>
+                  <h6>Simplex Roller Chain</h6>
+                </div>
+              </div>
+            </a>
 
-                  <a href="../html/viewother-products.html#vop4">
-                    <div class="produ1">
-                        <div class="ima_text">
-                            <img src="../img/product/Mann/19.webp" alt="Not Available"
-                                style="width: 242px; height: 230px;">
-                            <br>
-                            <hr>
-                            <h6>Hollow Pin Chains</h6>
-                        </div>
-                    </div></a>
+            <a href="../html/viewother-products.html#vop4">
+              <div class="produ1">
+                <div class="ima_text">
+                  <img src="../img/product/Mann/19.webp" alt="Not Available" style="width: 242px; height: 230px;">
+                  <br>
+                  <hr>
+                  <h6>Hollow Pin Chains</h6>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -555,44 +584,47 @@
           <div class="prod1">
             <a href="../html/viewother-products.html#vop5">
               <div class="produ1">
-                  <div class="ima_text">
-                      <img src="../img/product/Mann/20.webp" alt="Not Available">
-                      <br>
-                      <hr>
-                      <h6>Drive Chains</h6>
-                  </div>
-              </div></a>
+                <div class="ima_text">
+                  <img src="../img/product/Mann/20.webp" alt="Not Available">
+                  <br>
+                  <hr>
+                  <h6>Drive Chains</h6>
+                </div>
+              </div>
+            </a>
 
-              <a href="../html/viewother-products.html#vop6">
-                <div class="produ1">
-                    <div class="ima_text">
-                        <img src="../img/product/Mann/21.webp" alt="Not Available">
-                        <br>
-                        <hr>
-                        <h6>Toughing Conveyor Idler</h6>
-                    </div>
-                </div></a>
+            <a href="../html/viewother-products.html#vop6">
+              <div class="produ1">
+                <div class="ima_text">
+                  <img src="../img/product/Mann/21.webp" alt="Not Available">
+                  <br>
+                  <hr>
+                  <h6>Toughing Conveyor Idler</h6>
+                </div>
+              </div>
+            </a>
 
-                <a href="../html/viewother-products.html#vop7">
-                  <div class="produ1">
-                      <div class="ima_text">
-                          <img src="../img/product/Mann/22.webp" alt="Not Available">
-                          <br>
-                          <hr>
-                          <h6>Polyacetal Crate Conveyor</h6>
-                      </div>
-                  </div></a>
-                
-                  <a href="../html/viewother-products.html#vop8">
-                    <div class="produ1">
-                        <div class="ima_text">
-                            <img src="../img/product/Mann/25.webp" alt="Not Available"
-                                style="width: 242px; height: 230px;">
-                            <br>
-                            <hr>
-                            <h6>PIV Chain</h6>
-                        </div>
-                    </div></a>
+            <a href="../html/viewother-products.html#vop7">
+              <div class="produ1">
+                <div class="ima_text">
+                  <img src="../img/product/Mann/22.webp" alt="Not Available">
+                  <br>
+                  <hr>
+                  <h6>Polyacetal Crate Conveyor</h6>
+                </div>
+              </div>
+            </a>
+
+            <a href="../html/viewother-products.html#vop8">
+              <div class="produ1">
+                <div class="ima_text">
+                  <img src="../img/product/Mann/25.webp" alt="Not Available" style="width: 242px; height: 230px;">
+                  <br>
+                  <hr>
+                  <h6>PIV Chain</h6>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -603,45 +635,48 @@
           <div class="prod1">
             <a href="../html/viewother-products.html#vop9">
               <div class="produ1">
-                  <div class="ima_text">
-                      <img src="../img/product/Mann/26.webp" alt="Not Available"
-                          style="width: 242px; height: 230px;">
-                      <br>
-                      <hr>
-                      <h6>Duplex Chains</h6>
-                  </div>
-              </div></a>
+                <div class="ima_text">
+                  <img src="../img/product/Mann/26.webp" alt="Not Available" style="width: 242px; height: 230px;">
+                  <br>
+                  <hr>
+                  <h6>Duplex Chains</h6>
+                </div>
+              </div>
+            </a>
 
-              <a href="../html/viewother-products.html#vop10">
-                <div class="produ1">
-                    <div class="ima_text">
-                        <img src="../img/product/Mann/silent_chain.png" alt="Not Available"
-                            style="width: 242px; height: 230px;">
-                        <br>
-                        <hr>
-                        <h6>Silent Chain</h6>
-                    </div>
-                </div></a>
+            <a href="../html/viewother-products.html#vop10">
+              <div class="produ1">
+                <div class="ima_text">
+                  <img src="../img/product/Mann/silent_chain.png" alt="Not Available"
+                    style="width: 242px; height: 230px;">
+                  <br>
+                  <hr>
+                  <h6>Silent Chain</h6>
+                </div>
+              </div>
+            </a>
 
-                <a href="../html/viewother-products.html#vop11">
-                  <div class="produ1">
-                      <div class="ima_text">
-                          <img src="../img/product/Mann/28.webp" alt="Not Available">
-                          <br>
-                          <hr>
-                          <h6>Paver Chains</h6>
-                      </div>
-                  </div></a>
+            <a href="../html/viewother-products.html#vop11">
+              <div class="produ1">
+                <div class="ima_text">
+                  <img src="../img/product/Mann/28.webp" alt="Not Available">
+                  <br>
+                  <hr>
+                  <h6>Paver Chains</h6>
+                </div>
+              </div>
+            </a>
 
-                  <a href="../html/viewother-products.html#vop12">
-                    <div class="produ1">
-                        <div class="ima_text">
-                            <img src="../img/product/Mann/29.webp" alt="Not Available">
-                            <br>
-                            <hr>
-                            <h6>Scraper Chain</h6>
-                        </div>
-                    </div></a>
+            <a href="../html/viewother-products.html#vop12">
+              <div class="produ1">
+                <div class="ima_text">
+                  <img src="../img/product/Mann/29.webp" alt="Not Available">
+                  <br>
+                  <hr>
+                  <h6>Scraper Chain</h6>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -652,97 +687,692 @@
           <div class="prod1">
             <a href="../html/supply-cm.html#scm1">
               <div class="produ1">
-                  <div class="ima_text">
-                      <img src="../img/product/Mann/30.webp" alt="Not Available">
-                      <br>
-                      <hr>
-                      <h6>Solid Waste Management System chains</h6>
-                  </div>
-              </div></a>
+                <div class="ima_text">
+                  <img src="../img/product/Mann/30.webp" alt="Not Available">
+                  <br>
+                  <hr>
+                  <h6>Solid Waste Management System chains</h6>
+                </div>
+              </div>
+            </a>
 
-              <a href="../html/new-items.html#ni1">
-                <div class="produ1">
-                    <div class="ima_text">
-                        <img src="../img/product/Mann/38.webp" alt="Not Available" style="width: 242px; height: 230px;">
-                        <br>
-                        <hr>
-                        <h6>Industrial Roller Chain</h6>
-                    </div>
-                </div></a>
-    
-                <a href="../html/new-items.html#ni2">
-                <div class="produ1">
-                    <div class="ima_text">
-                        <img src="../img/product/Mann/31.webp" alt="Not Available" style="width: 242px; height: 230px;">
-                        <br>
-                        <hr>
-                        <h6>Polyacetal Chain With SS Pins</h6>
-                    </div>
-                </div></a>
-    
-                <a href="../html/new-items.html#ni3">
-                <div class="produ1">
-                    <div class="ima_text">
-                        <img src="../img/product/Mann/37.webp" alt="Not Available" style="width: 242px; height: 230px;"><br>
-                        <hr>
-                        <h6>MS CC 600 Chain</h6>
-                    </div>
-                </div></a>
+            <a href="../html/new-items.html#ni1">
+              <div class="produ1">
+                <div class="ima_text">
+                  <img src="../img/product/Mann/38.webp" alt="Not Available" style="width: 242px; height: 230px;">
+                  <br>
+                  <hr>
+                  <h6>Industrial Roller Chain</h6>
+                </div>
+              </div>
+            </a>
+
+            <a href="../html/new-items.html#ni2">
+              <div class="produ1">
+                <div class="ima_text">
+                  <img src="../img/product/Mann/31.webp" alt="Not Available" style="width: 242px; height: 230px;">
+                  <br>
+                  <hr>
+                  <h6>Polyacetal Chain With SS Pins</h6>
+                </div>
+              </div>
+            </a>
+
+            <a href="../html/new-items.html#ni3">
+              <div class="produ1">
+                <div class="ima_text">
+                  <img src="../img/product/Mann/37.webp" alt="Not Available" style="width: 242px; height: 230px;"><br>
+                  <hr>
+                  <h6>MS CC 600 Chain</h6>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleCaptions"
       data-mdb-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color:black;padding-bottom: 45px;margin-top: 100px;"></span>
-      <span class="visually-hidden" >Previous</span>
+      <span class="carousel-control-prev-icon" aria-hidden="true"
+        style="background-color:black;padding-bottom: 45px;margin-top: 100px;"></span>
+      <span class="visually-hidden">Previous</span>
     </button>
     <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleCaptions"
       data-mdb-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true" style="background-color:black;padding-bottom: 45px;margin-top: 100px;"></span>
-      <span class="visually-hidden" >Next</span>
+      <span class="carousel-control-next-icon" aria-hidden="true"
+        style="background-color:black;padding-bottom: 45px;margin-top: 100px;"></span>
+      <span class="visually-hidden">Next</span>
     </button>
   </div>
 
   <!-- carousal end -->
 
+  <!-- our services -->
+  <!-- <div class="container"> -->
+  <div class="section-header">
+    <span>Images</span>
+    <h2>Images</h2>
 
-  
-  
-  
+  </div>
+
+  <!-- row 1 -->
+
+  <!--card 1  -->
+  <div class="container">
+    <div class="row icon-boxes">
+
+      <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+        <div class="icon-box">
+          <div class="icon"><i class="fa-solid fa-flask"></i></div>
+          <h4 class="title"><a href="">Chemical Industries</a></h4><br>
+          <h3 class="description" data-fancybox data-src="#card1"><a href="">View more details...</a></h3>
+        </div>
+      </div>
+
+      <div id="card1" style="display: none;">
+
+        <section id="about" class="about">
+          <div class="container" data-aos="fade-up">
+
+            <div class="row">
+              <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+                <img src="../img/card/about.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+                <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore
+                  magna aliqua.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                  <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
+                    pariatur.</li>
+                </ul>
+                <p>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                  voluptate
+                </p>
+
+              </div>
+            </div>
+
+          </div>
+        </section>
 
 
-  <!-- ======= Footer ======= -->
+      </div>
 
-  <div include-html="footer-inc.html" id="footer_file"></div>
+      <!--card 2  -->
+      <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+        <div class="icon-box">
+          <div class="icon"><i class="fa-solid fa-bag-seedling"></i></i></div>
+          <h4 class="title"><a href="">Fertilizer Plants</a></h4><br>
+          <h3 class="description" data-fancybox data-src="#card2"><a href="">View more details...</a></h3>
+        </div>
+      </div>
+
+      <div id="card2" style="display: none;">
+
+        <section id="about" class="about">
+          <div class="container" data-aos="fade-up">
+
+            <div class="row">
+              <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+                <img src="../img/card/about.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+                <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore
+                  magna aliqua.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                  <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
+                    pariatur.</li>
+                </ul>
+                <p>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                  voluptate
+                </p>
+
+              </div>
+            </div>
+
+          </div>
+        </section>
 
 
-  <!-- End Footer -->
+      </div>
 
-  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+      <!--card 3  -->
+      <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+        <div class="icon-box">
+          <div class="icon"><i class="fa-solid fa-farm"></i></div>
+          <h4 class="title"><a href="">Dairy Industries</a></h4><br>
+          <h3 class="description" data-fancybox data-src="#card3"><a href="">View more details...</a></h3>
+        </div>
+      </div>
 
-  <div id="preloader"></div>
+      <div id="card3" style="display: none;">
 
-  <!-- Vendor JS Files -->
-  <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="../vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="../vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="../vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="../vendor/aos/aos.js"></script>
-  <script src="../vendor/php-email-form/validate.js"></script>
+        <section id="about" class="about">
+          <div class="container" data-aos="fade-up">
+
+            <div class="row">
+              <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+                <img src="../img/card/about.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+                <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore
+                  magna aliqua.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                  <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
+                    pariatur.</li>
+                </ul>
+                <p>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                  voluptate
+                </p>
+
+              </div>
+            </div>
+
+          </div>
+        </section>
 
 
-  <!-- Template Main JS File -->
-  <script src="../js/main.js"></script>
+      </div>
 
-  <!-- mdb js -->
-  <script type="text/javascript" src="../js/mdb.min.js"></script>
+      <!--card 4  -->
+      <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+        <div class="icon-box">
+          <div class="icon"><i class="fa-solid fa-notes-medical"></i></div>
+          <h4 class="title"><a href="">Pharmacutical Industries</a></h4><br>
+          <h3 class="description" data-fancybox data-src="#card4"><a href="">View more details...</a></h3>
+        </div>
+      </div>
 
-  <!-- include html  -->
+      <div id="card4" style="display: none;">
 
-  <script src="../js/jquery-3.6.0.min.js"></script>
-  <script src="../js/include-html.min.js"></script>
+        <section id="about" class="about">
+          <div class="container" data-aos="fade-up">
+
+            <div class="row">
+              <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+                <img src="../img/card/about.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+                <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore
+                  magna aliqua.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                  <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
+                    pariatur.</li>
+                </ul>
+                <p>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                  voluptate
+                </p>
+
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+
+      </div>
+
+    </div>
+
+  </div>
+  <!-- row 2 -->
+
+  <!--card 5  -->
+  <div class="container">
+    <div class="row icon-boxes">
+
+      <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+        <div class="icon-box">
+          <div class="icon"><i class="fa-solid fa-cubes-stacked"></i></div>
+          <h4 class="title"><a href="">Sugar Indusries</a></h4><br>
+          <h3 class="description" data-fancybox data-src="#card5"><a href="">View more details...</a></h3>
+        </div>
+      </div>
+
+      <div id="card5" style="display: none;">
+
+        <section id="about" class="about">
+          <div class="container" data-aos="fade-up">
+
+            <div class="row">
+              <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+                <img src="../img/card/about.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+                <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore
+                  magna aliqua.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                  <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
+                    pariatur.</li>
+                </ul>
+                <p>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                  voluptate
+                </p>
+
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+
+      </div>
+
+      <!--card 6  -->
+      <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+        <div class="icon-box">
+          <div class="icon"><i class="fa-solid fa-suitcase-rolling"></i></div>
+          <h4 class="title"><a href="">Rolling Mills</a></h4><br>
+          <h3 class="description" data-fancybox data-src="#card6"><a href="">View more details...</a></h3>
+        </div>
+      </div>
+
+      <div id="card6" style="display: none;">
+
+        <section id="about" class="about">
+          <div class="container" data-aos="fade-up">
+
+            <div class="row">
+              <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+                <img src="../img/card/about.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+                <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore
+                  magna aliqua.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                  <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
+                    pariatur.</li>
+                </ul>
+                <p>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                  voluptate
+                </p>
+
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+
+      </div>
+
+      <!--card 7  -->
+      <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+        <div class="icon-box">
+          <div class="icon"><i class="fa-solid fa-industry"></i></div>
+          <h4 class="title"><a href="">Hot-Mix Plants</a></h4><br>
+          <h3 class="description" data-fancybox data-src="#card7"><a href="">View more details...</a></h3>
+        </div>
+      </div>
+
+      <div id="card7" style="display: none;">
+
+        <section id="about" class="about">
+          <div class="container" data-aos="fade-up">
+
+            <div class="row">
+              <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+                <img src="../img/card/about.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+                <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore
+                  magna aliqua.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                  <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
+                    pariatur.</li>
+                </ul>
+                <p>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                  voluptate
+                </p>
+
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+
+      </div>
+
+      <!--card 8  -->
+      <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+        <div class="icon-box">
+          <div class="icon"><i class="fa-regular fa-dryer-heat"></i></div>
+          <h4 class="title"><a href="">Industrial Dryers</a></h4><br>
+          <h3 class="description" data-fancybox data-src="#card8"><a href="">View more details...</a></h3>
+        </div>
+      </div>
+
+      <div id="card8" style="display: none;">
+
+        <section id="about" class="about">
+          <div class="container" data-aos="fade-up">
+
+            <div class="row">
+              <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+                <img src="../img/card/about.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+                <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore
+                  magna aliqua.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                  <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
+                    pariatur.</li>
+                </ul>
+                <p>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                  voluptate
+                </p>
+
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+
+      </div>
+
+    </div>
+
+  </div>
+  <!-- row 3 -->
+
+  <!--card 9  -->
+  <div class="container" style="margin-bottom: 80px;">
+    <div class="row icon-boxes">
+
+      <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+        <div class="icon-box">
+          <div class="icon"><i class="fa-solid fa-fill-drip"></i></div>
+          <h4 class="title"><a href="">Auto Painting Conveyors</a></h4><br>
+          <h3 class="description" data-fancybox data-src="#card9"><a href="">View more details...</a></h3>
+        </div>
+      </div>
+
+      <div id="card9" style="display: none;">
+
+        <section id="about" class="about">
+          <div class="container" data-aos="fade-up">
+
+            <div class="row">
+              <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+                <img src="../img/card/about.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+                <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore
+                  magna aliqua.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                  <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
+                    pariatur.</li>
+                </ul>
+                <p>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                  voluptate
+                </p>
+
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+
+      </div>
+
+      <!--card 10  -->
+      <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+        <div class="icon-box">
+          <div class="icon"><i class="fa-solid fa-gem"></i></div>
+          <h4 class="title"><a href="">Cement Factory</a></h4><br>
+          <h3 class="description" data-fancybox data-src="#card10"><a href="">View more details...</a></h3>
+        </div>
+      </div>
+
+      <div id="card10" style="display: none;">
+
+        <section id="about" class="about">
+          <div class="container" data-aos="fade-up">
+
+            <div class="row">
+              <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+                <img src="../img/card/about.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+                <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore
+                  magna aliqua.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                  <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
+                    pariatur.</li>
+                </ul>
+                <p>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                  voluptate
+                </p>
+
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+
+      </div>
+
+      <!--card 11  -->
+      <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+        <div class="icon-box">
+          <div class="icon"><i class="fa-solid fa-bowl-food"></i></div>
+          <h4 class="title"><a href="">Food Industries</a></h4><br>
+          <h3 class="description" data-fancybox data-src="#card11"><a href="">View more details...</a></h3>
+        </div>
+      </div>
+
+      <div id="card11" style="display: none;">
+
+        <section id="about" class="about">
+          <div class="container" data-aos="fade-up">
+
+            <div class="row">
+              <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+                <img src="../img/card/about.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+                <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore
+                  magna aliqua.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                  <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
+                    pariatur.</li>
+                </ul>
+                <p>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                  voluptate
+                </p>
+
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+
+      </div>
+
+      <!--card 12  -->
+      <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+        <div class="icon-box">
+          <div class="icon"><i class="fa-sharp fa-solid fa-print"></i></div>
+          <h4 class="title"><a href="">Printing Machinery</a></h4><br>
+          <h3 class="description" data-fancybox data-src="#card12"><a href="">View more details...</a></h3>
+        </div>
+      </div>
+
+      <div id="card12" style="display: none;">
+
+        <section id="about" class="about">
+          <div class="container" data-aos="fade-up">
+
+            <div class="row">
+              <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+                <img src="../img/card/about.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+                <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore
+                  magna aliqua.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                  <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
+                    pariatur.</li>
+                </ul>
+                <p>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                  voluptate
+                </p>
+
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+  <!-- our services end -->
+
+
+</body>
+
+
+
+
+<!-- ======= Footer ======= -->
+
+<div include-html="footer-inc.html" id="footer_file"></div>
+
+
+<!-- End Footer -->
+
+<a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+<div id="preloader"></div>
+
+<!-- Vendor JS Files -->
+<script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="../vendor/glightbox/js/glightbox.min.js"></script>
+<script src="../vendor/swiper/swiper-bundle.min.js"></script>
+<script src="../vendor/aos/aos.js"></script>
+<script src="../vendor/php-email-form/validate.js"></script>
+
+
+<!-- Template Main JS File -->
+<script src="../js/main.js"></script>
+
+<!-- mdb js -->
+<script type="text/javascript" src="../js/mdb.min.js"></script>
+
+<!-- include html  -->
+
+<script src="../js/jquery-3.6.0.min.js"></script>
+<script src="../js/include-html.min.js"></script>
 
 
 </body>
