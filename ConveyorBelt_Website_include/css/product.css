@@ -207,7 +207,7 @@
     position: relative;
     }
     100%{
-    background-image: url("../img/product_11.jpeg");
+    background-image: url("../img/product_1.jpeg");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -219,7 +219,7 @@
     animation-duration: 20s;
     animation-delay: 2s;
     animation-iteration-count: infinite;
-    animation-direction: alternate;
+    /* animation-direction: alternate; */
   }
   .breadcrumbs .page-header {
     margin: 0;
