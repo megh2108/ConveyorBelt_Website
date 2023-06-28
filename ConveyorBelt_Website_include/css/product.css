@@ -147,41 +147,76 @@
   --------------------------------------------------------------*/
   @keyframes mann {
     0%{
-    background-image: url("../img/features-1.jpg");
+    background-image: url("../img/product_1.jpeg");
     background-position: center;
     background-size: cover;
     position: relative;
     }
-    25%{
-    background-image: url("../img/features-2.jpg");
+    10%{
+    background-image: url("../img/product_2.jpeg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    }
+    20%{
+    background-image:url("../img/product_3.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    }
+    30%{
+    background-image: url("../img/product_4.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    }
+    40%{
+    background-image: url("../img/product_5.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
     }
     50%{
-    background-image:url("../img/features-3.jpg");
+    background-image: url("../img/product_6.jpeg");
     background-position: center;
     background-size: cover;
     position: relative;
     }
-    75%{
-    background-image: url("../img/features-4.jpg");
+    60%{
+    background-image: url("../img/product_7.jpeg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    }
+    70%{
+    background-image:url("../img/product_8.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    }
+    80%{
+    background-image: url("../img/product_9.jpeg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    }
+    90%{
+    background-image: url("../img/product_10.jpeg");
     background-position: center;
     background-size: cover;
     position: relative;
     }
     100%{
-    background-image: url("../img/service-details.jpg");
+    background-image: url("../img/product_11.jpeg");
     background-position: center;
     background-size: cover;
     position: relative;
-    
     }
   }
 
   .breadcrumbs .page-header{
     animation-name: mann;
-    animation-duration: 10s;
+    animation-duration: 20s;
     animation-delay: 2s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
