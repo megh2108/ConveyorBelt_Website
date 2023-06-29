@@ -216,8 +216,8 @@
 
   .breadcrumbs .page-header{
     animation-name: mann;
-    animation-duration: 20s;
-    animation-delay: 0s, 2s;
+    animation-duration: 30s;
+    animation-delay: 0s, 3s;
     animation-iteration-count: infinite;
     /* animation-direction: alternate; */
   }
@@ -245,6 +245,7 @@
   }
   
   .breadcrumbs .page-header p {
+    font-size: 15px;
     color: rgba(255, 255, 255, 0.8);
   }
   

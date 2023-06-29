@@ -350,6 +350,7 @@ a:hover {
     transition: 0.5s;
     z-index: 9999;
     margin-right: 10px;
+    margin-bottom: 16px;
   }
 
   .mobile-nav-hide {
