@@ -258,7 +258,7 @@ h6:hover {
 
 .prod1 {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: space-evenly;
   margin: 15px;
   margin-top: -50px;
@@ -268,7 +268,7 @@ h6:hover {
   list-style: none;
   width: 256px;
   box-sizing: border-box;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   /* box-shadow: 9px 8px 15px 0px #d49d9d73;; */
   /* border: 2px solid #f9f3f3; */
   /* padding: 10px; */
@@ -436,5 +436,21 @@ h6:hover {
   .about .content .learn-more-btn {
     margin: 0 48px 0 0;
     padding: 6px 18px;
+  }
+
+  
+}
+@media (max-width: 1025px) {
+  
+
+  .prod1 {
+   
+    flex-wrap: wrap;
+  }
+  
+  .produ1 {
+   
+    flex-wrap: wrap;
+    
   }
 }
