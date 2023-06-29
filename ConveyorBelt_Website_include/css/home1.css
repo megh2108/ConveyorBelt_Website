@@ -170,7 +170,9 @@ height:100vh
   width: 100%;
 }
 }
-
+/* .home-slide{
+  flex-wrap: wrap;
+} */
  /*--------------------------------------------------------------
   # Sections & Section Header
   --------------------------------------------------------------*/
@@ -244,6 +246,7 @@ height:100vh
 
 .prod1 {
 display: flex;
+flex-wrap: wrap;
 justify-content: space-evenly;
 margin: 15px;
 margin-top: -50px;
@@ -253,6 +256,7 @@ margin-top: -50px;
 list-style: none;
 width: 256px;
 box-sizing: border-box;
+flex-wrap: wrap;
 /* box-shadow: 9px 8px 15px 0px #d49d9d73;; */
 /* border: 2px solid #f9f3f3; */
 /* padding: 10px; */
