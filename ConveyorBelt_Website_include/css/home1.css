@@ -336,6 +336,35 @@ h6:hover {
 }
 
 
+/* video css */
+
+.video{
+  text-align: center;
+}
+
+@media (min-width: 1001px) {
+
+  .yt{
+     border:0;
+     width: 90vh; 
+     /* height: 350px; */
+     }
+ 
+ 
+ }
+ 
+ @media (min-width: 250px) and (max-width: 1000px) {
+ 
+   .yt{
+     border:0;
+     width: 40vh; 
+     /* height: 340px; */
+     }
+ 
+ }
+ 
+
+
 /* our service */
 
 .icon-box {
