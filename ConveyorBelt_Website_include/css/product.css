@@ -221,6 +221,14 @@
     animation-iteration-count: infinite;
     /* animation-direction: alternate; */
   }
+  @media(max-width:500px){
+  .breadcrumbs .page-header{
+    animation-name: mann;
+    animation-duration: 40s;
+    animation-delay: 0s, 4s;
+    animation-iteration-count: infinite;
+  }
+}
   .breadcrumbs .page-header {
     margin-top: 100px;
     padding: 300px 0 80px 0;
