@@ -55,7 +55,9 @@
 .carousel-fade .carousel-item {
   opacity: 0;
   transition-property: opacity;
-  transform: none
+  /* transform: none; */
+  transition-timing-function: ease-out;
+  transition-duration: 3s;
 }
 
 .carousel-fade .carousel-item-next.carousel-item-start,
