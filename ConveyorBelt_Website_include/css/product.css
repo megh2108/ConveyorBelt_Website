@@ -147,25 +147,25 @@
   --------------------------------------------------------------*/
   @keyframes mann {
     0%{
-    background-image: url("../img/product_1.jpeg");
+    background-image: url("../img/product_12.png");
     background-position: center;
     background-size: cover;
     position: relative;
     }
     10%{
-    background-image: url("../img/product_2.jpeg");
+    background-image: url("../img/product_14.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
     }
     20%{
-    background-image:url("../img/product_3.jpg");
+    background-image:url("../img/product_13.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
     }
     30%{
-    background-image: url("../img/product_4.jpg");
+    background-image: url("../img/product_11.jpeg");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -207,7 +207,7 @@
     position: relative;
     }
     100%{
-    background-image: url("../img/product_1.jpeg");
+    background-image: url("../img/product_12.png");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -216,8 +216,8 @@
 
   .breadcrumbs .page-header{
     animation-name: mann;
-    animation-duration: 30s;
-    animation-delay: 0s, 3s;
+    animation-duration: 40s;
+    animation-delay: 0s, 4s;
     animation-iteration-count: infinite;
     /* animation-direction: alternate; */
   }
