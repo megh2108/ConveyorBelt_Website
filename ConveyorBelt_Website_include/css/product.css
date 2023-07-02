@@ -222,7 +222,7 @@
     /* animation-direction: alternate; */
   }
   .breadcrumbs .page-header {
-    margin: 0;
+    margin-top: 100px;
     padding: 300px 0 80px 0;
     position: relative;
     background-size: cover;
@@ -238,6 +238,7 @@
   }
   
   .breadcrumbs .page-header h2 {
+    margin-top: -70px;
     font-size: 56px;
     font-weight: 500;
     color: #fff;
@@ -555,3 +556,11 @@ section {
   }
 } 
 
+@media (max-width: 1025px) {
+
+  .produ1 img{
+    width: 242px;
+    height: 230px;
+  }
+  
+}
