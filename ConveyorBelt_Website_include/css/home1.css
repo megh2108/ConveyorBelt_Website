@@ -470,16 +470,18 @@ h6:hover {
   
 }
 @media (max-width: 1025px) {
-  
 
   .prod1 {
-   
     flex-wrap: wrap;
   }
   
-  .produ1 {
-   
+  .produ1 {   
     flex-wrap: wrap;
-    
   }
+
+  .produ1 img{
+    width: 242px;
+    height: 230px;
+  }
+  
 }
