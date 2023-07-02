@@ -172,6 +172,14 @@
     background-position: center;
     background-repeat: no-repeat;
   }
+  @media(max-width:500px){
+    .breadcrumbs .page-header{
+      animation-name: mann;
+      animation-duration: 40s;
+      animation-delay: 0s, 4s;
+      animation-iteration-count: infinite;
+    }
+  }
   
   .breadcrumbs .page-header:before {
     content: "";
