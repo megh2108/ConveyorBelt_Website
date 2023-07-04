@@ -475,15 +475,34 @@
  /*--------------------------------------------------------------
   # Our Team Section
   --------------------------------------------------------------*/
+  /* @media (max-width: 900px) {
+    .team .member {
+      text-align: center;
+      margin-bottom: 20px;
+      background: #fff;
+      border: 1px solid rgba(14, 29, 52, 0.15);
+     margin-left: 0;
+
+    }
+    
+    .team .member img {
+      margin: -1px -1px 30px -1px;
+      width: 200px;
+      height:200px;
+    }
+  } */
   .team .member {
     text-align: center;
     margin-bottom: 20px;
     background: #fff;
     border: 1px solid rgba(14, 29, 52, 0.15);
+   /* margin-left: 150px; */
   }
   
   .team .member img {
     margin: -1px -1px 30px -1px;
+    width: 400px;
+    height:400px;
   }
   
   .team .member .member-content {
