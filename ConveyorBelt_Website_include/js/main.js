@@ -156,8 +156,8 @@ document.addEventListener('DOMContentLoaded', () => {
     aos_init();
   });
 
-
- 
-
 });
 
+$('.offset').on('click', function () {
+  window.open("https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=conveyorindustries@gmail.com &su=Inquiry for product");
+});
