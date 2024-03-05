@@ -573,3 +573,10 @@ section {
   }
   
 }
+@media (max-width: 1025px) {
+
+  .side-remove{
+    display: none;
+  }
+  
+}
